@@ -1,0 +1,2118 @@
+export * from './AIMappingMatchOption.ts';
+export * from './AIMappingMatchOptions.ts';
+export * from './AITransformCreateOptions.ts';
+export * from './AITransformDto.ts';
+export * from './AITransformMappingDto.ts';
+export * from './AITransformMappingMatchResult.ts';
+export * from './AITransformMappingProjection.ts';
+export * from './AITransformProjection.ts';
+export * from './AITransformResultDto.ts';
+export * from './AITransformResultProjectionDto.ts';
+export * from './AbstractWebhookPayload.ts';
+export * from './AccountBounceBlockDto.ts';
+export * from './AcquirePhonePoolLeaseOptions.ts';
+export * from './AddPhonePoolNumbersOptions.ts';
+export * from './AliasDto.ts';
+export * from './AliasProjection.ts';
+export * from './AliasThreadProjection.ts';
+export * from './AnalyzeDmarcReportOptions.ts';
+export * from './AnalyzeDmarcReportResults.ts';
+export * from './AnalyzeEmailHeadersOptions.ts';
+export * from './AnalyzeEmailHeadersResults.ts';
+export * from './AttachmentEntityDto.ts';
+export * from './AttachmentMetaData.ts';
+export * from './AttachmentProjection.ts';
+export * from './AuditLogEventDto.ts';
+export * from './AuditLogPageDto.ts';
+export * from './AuditLogSearchOptions.ts';
+export * from './AvailablePhoneNumberDto.ts';
+export * from './AvailablePhoneNumbersResult.ts';
+export * from './BasicAuthOptions.ts';
+export * from './BounceProjection.ts';
+export * from './BounceRecipientProjection.ts';
+export * from './BouncedEmailDto.ts';
+export * from './BouncedRecipientDto.ts';
+export * from './BulkSendEmailOptions.ts';
+export * from './CampaignProbeDto.ts';
+export * from './CampaignProbeInsightsDto.ts';
+export * from './CampaignProbeRunComparisonDto.ts';
+export * from './CampaignProbeRunDto.ts';
+export * from './CampaignProbeRunDueResult.ts';
+export * from './CampaignProbeRunNowResult.ts';
+export * from './CampaignProbeSeriesDto.ts';
+export * from './CampaignProbeSeriesPointDto.ts';
+export * from './CanSendEmailResults.ts';
+export * from './CancelDevicePreviewRunOptions.ts';
+export * from './CancelDevicePreviewRunResult.ts';
+export * from './CheckCampaignProbeOptions.ts';
+export * from './CheckCampaignProbeResults.ts';
+export * from './CheckDnsPropagationOptions.ts';
+export * from './CheckDnsPropagationResults.ts';
+export * from './CheckDomainMonitorOptions.ts';
+export * from './CheckDomainMonitorResults.ts';
+export * from './CheckEmailAuditOptions.ts';
+export * from './CheckEmailAuthStackOptions.ts';
+export * from './CheckEmailAuthStackResults.ts';
+export * from './CheckEmailBlacklistOptions.ts';
+export * from './CheckEmailBlacklistResults.ts';
+export * from './CheckEmailBodyFeatureSupportResults.ts';
+export * from './CheckEmailBodyResults.ts';
+export * from './CheckEmailClientSupportOptions.ts';
+export * from './CheckEmailClientSupportResults.ts';
+export * from './CheckEmailFeaturesClientSupportOptions.ts';
+export * from './CheckEmailFeaturesClientSupportResults.ts';
+export * from './CodeCandidate.ts';
+export * from './Complaint.ts';
+export * from './ConditionOption.ts';
+export * from './ConditionalStructuredContentResult.ts';
+export * from './ConnectorDto.ts';
+export * from './ConnectorEventDto.ts';
+export * from './ConnectorEventProjection.ts';
+export * from './ConnectorImapConnectionDto.ts';
+export * from './ConnectorImapConnectionTestResult.ts';
+export * from './ConnectorProjection.ts';
+export * from './ConnectorProviderSettingsDto.ts';
+export * from './ConnectorSmtpConnectionDto.ts';
+export * from './ConnectorSmtpConnectionTestResult.ts';
+export * from './ConnectorSyncRequestResult.ts';
+export * from './ConnectorSyncResult.ts';
+export * from './ConnectorSyncSettingsDto.ts';
+export * from './ConsentStatusDto.ts';
+export * from './ContactDto.ts';
+export * from './ContactProjection.ts';
+export * from './ContentMatchOptions.ts';
+export * from './CountDto.ts';
+export * from './CreateAITransformerMappingOptions.ts';
+export * from './CreateAliasOptions.ts';
+export * from './CreateCampaignProbeOptions.ts';
+export * from './CreateCampaignProbeRunOptions.ts';
+export * from './CreateConnectorImapConnectionOptions.ts';
+export * from './CreateConnectorOptions.ts';
+export * from './CreateConnectorSmtpConnectionOptions.ts';
+export * from './CreateConnectorSyncSettingsOptions.ts';
+export * from './CreateConnectorWithOptions.ts';
+export * from './CreateContactOptions.ts';
+export * from './CreateDeliverabilitySimulationJobOptions.ts';
+export * from './CreateDeliverabilityTestOptions.ts';
+export * from './CreateDevicePreviewFeedbackOptions.ts';
+export * from './CreateDevicePreviewOptions.ts';
+export * from './CreateDevicePreviewRunResult.ts';
+export * from './CreateDomainMonitorAlertSinkOptions.ts';
+export * from './CreateDomainMonitorOptions.ts';
+export * from './CreateDomainOptions.ts';
+export * from './CreateEmailAuditOptions.ts';
+export * from './CreateEmergencyAddressOptions.ts';
+export * from './CreateGroupOptions.ts';
+export * from './CreateInboxDto.ts';
+export * from './CreateInboxForwarderOptions.ts';
+export * from './CreateInboxReplierOptions.ts';
+export * from './CreateInboxRetentionPolicyForAccountOptions.ts';
+export * from './CreatePhoneNumberOptions.ts';
+export * from './CreatePhonePoolOptions.ts';
+export * from './CreatePhoneProvisioningJobItemOptions.ts';
+export * from './CreatePhoneProvisioningJobOptions.ts';
+export * from './CreatePortalOptions.ts';
+export * from './CreatePortalUserOptions.ts';
+export * from './CreateRulesetOptions.ts';
+export * from './CreateTemplateOptions.ts';
+export * from './CreateTotpDeviceBase32SecretKeyOptions.ts';
+export * from './CreateTotpDeviceCustomOptions.ts';
+export * from './CreateTotpDeviceOtpAuthUrlOptions.ts';
+export * from './CreateTrackingPixelOptions.ts';
+export * from './CreateWebhookOptions.ts';
+export * from './DNSLookupOptions.ts';
+export * from './DNSLookupResult.ts';
+export * from './DNSLookupResults.ts';
+export * from './DNSLookupsOptions.ts';
+export * from './DeleteDevicePreviewRunResult.ts';
+export * from './DeleteResult.ts';
+export * from './DeliverabilityAnalyticsRunDto.ts';
+export * from './DeliverabilityAnalyticsSeriesDto.ts';
+export * from './DeliverabilityAnalyticsSeriesPointDto.ts';
+export * from './DeliverabilityAnalyticsSummaryDto.ts';
+export * from './DeliverabilityEntityResultDto.ts';
+export * from './DeliverabilityEntityResultPageDto.ts';
+export * from './DeliverabilityExpectation.ts';
+export * from './DeliverabilityExpectationResultDto.ts';
+export * from './DeliverabilityFailureEntityHotspotDto.ts';
+export * from './DeliverabilityFailureHotspotsDto.ts';
+export * from './DeliverabilityFailurePhoneDimensionHotspotDto.ts';
+export * from './DeliverabilityPollStatusResultDto.ts';
+export * from './DeliverabilitySelectorOptions.ts';
+export * from './DeliverabilitySimulationEmailOptions.ts';
+export * from './DeliverabilitySimulationJobConfigDto.ts';
+export * from './DeliverabilitySimulationJobDto.ts';
+export * from './DeliverabilitySimulationJobErrorSummaryDto.ts';
+export * from './DeliverabilitySimulationJobEventDto.ts';
+export * from './DeliverabilitySimulationJobEventPageDto.ts';
+export * from './DeliverabilitySimulationJobTopErrorDto.ts';
+export * from './DeliverabilitySimulationSmsOptions.ts';
+export * from './DeliverabilityTestDto.ts';
+export * from './DeliverabilityTestPageDto.ts';
+export * from './DeliveryStatusDto.ts';
+export * from './DescribeDomainOptions.ts';
+export * from './DescribeMailServerDomainResult.ts';
+export * from './DevicePreviewFeedbackDto.ts';
+export * from './DevicePreviewFeedbackListDto.ts';
+export * from './DevicePreviewProviderProgressDto.ts';
+export * from './DevicePreviewRunDto.ts';
+export * from './DevicePreviewRunResultsDto.ts';
+export * from './DevicePreviewScreenshotDto.ts';
+export * from './DevicePreviewTargetDto.ts';
+export * from './DmarcReportMetadata.ts';
+export * from './DmarcReportSourceSummary.ts';
+export * from './DnsPropagationResolverResult.ts';
+export * from './DomainDto.ts';
+export * from './DomainGroup.ts';
+export * from './DomainGroupsDto.ts';
+export * from './DomainInformation.ts';
+export * from './DomainIssuesDto.ts';
+export * from './DomainMonitorAlertSinkDto.ts';
+export * from './DomainMonitorDto.ts';
+export * from './DomainMonitorInsightsDto.ts';
+export * from './DomainMonitorRunComparisonDto.ts';
+export * from './DomainMonitorRunDto.ts';
+export * from './DomainMonitorRunDueResult.ts';
+export * from './DomainMonitorRunNowResult.ts';
+export * from './DomainMonitorSeriesDto.ts';
+export * from './DomainMonitorSeriesPointDto.ts';
+export * from './DomainMonitorSummaryDto.ts';
+export * from './DomainNameRecord.ts';
+export * from './DomainPreview.ts';
+export * from './DomainRegionGroup.ts';
+export * from './DomainRegionGroupsDto.ts';
+export * from './DomainRegionInformation.ts';
+export * from './DownloadAttachmentDto.ts';
+export * from './Email.ts';
+export * from './EmailAnalysis.ts';
+export * from './EmailAuditAnalysisResult.ts';
+export * from './EmailAuditComparisonDto.ts';
+export * from './EmailAuditDto.ts';
+export * from './EmailAuditSpellingIssue.ts';
+export * from './EmailAuditUrlIssue.ts';
+export * from './EmailAvailableResult.ts';
+export * from './EmailBlacklistIpResult.ts';
+export * from './EmailBlacklistListingResult.ts';
+export * from './EmailContentMatchResult.ts';
+export * from './EmailContentPartResult.ts';
+export * from './EmailFeatureCategoryName.ts';
+export * from './EmailFeatureFamilyName.ts';
+export * from './EmailFeatureFamilyStatistics.ts';
+export * from './EmailFeatureNames.ts';
+export * from './EmailFeatureOverview.ts';
+export * from './EmailFeaturePlatformName.ts';
+export * from './EmailFeaturePlatformStatistics.ts';
+export * from './EmailFeatureSupportFlags.ts';
+export * from './EmailFeatureSupportResult.ts';
+export * from './EmailFeatureSupportStatusPercentage.ts';
+export * from './EmailFeatureVersionStatistics.ts';
+export * from './EmailHeaderAnalysisSummary.ts';
+export * from './EmailHeaderReceivedHop.ts';
+export * from './EmailHtmlDto.ts';
+export * from './EmailLinksResult.ts';
+export * from './EmailPreview.ts';
+export * from './EmailPreviewUrls.ts';
+export * from './EmailProjection.ts';
+export * from './EmailRecipients.ts';
+export * from './EmailRecipientsProjection.ts';
+export * from './EmailScreenshotResult.ts';
+export * from './EmailSignature.ts';
+export * from './EmailSignatureParseResult.ts';
+export * from './EmailTextLinesResult.ts';
+export * from './EmailThreadDto.ts';
+export * from './EmailThreadItem.ts';
+export * from './EmailThreadItemsDto.ts';
+export * from './EmailThreadProjection.ts';
+export * from './EmailValidationRequestDto.ts';
+export * from './EmailVerificationResult.ts';
+export * from './EmergencyAddress.ts';
+export * from './EmergencyAddressDto.ts';
+export * from './EmptyResponseDto.ts';
+export * from './EntityAutomationItemProjection.ts';
+export * from './EntityEventItemProjection.ts';
+export * from './EntityFavouriteItemProjection.ts';
+export * from './ExpirationDefaults.ts';
+export * from './ExpiredInboxDto.ts';
+export * from './ExpiredInboxRecordProjection.ts';
+export * from './ExportLink.ts';
+export * from './ExportOptions.ts';
+export * from './ExportTransformerOptions.ts';
+export * from './ExportTransformerResponse.ts';
+export * from './ExportTransformerResultJobDto.ts';
+export * from './ExtractAttachmentTextOptions.ts';
+export * from './ExtractAttachmentTextResult.ts';
+export * from './ExtractCodesOptions.ts';
+export * from './ExtractCodesResult.ts';
+export * from './FakeEmailDto.ts';
+export * from './FakeEmailPreview.ts';
+export * from './FakeEmailResult.ts';
+export * from './FilterBouncedRecipientsOptions.ts';
+export * from './FilterBouncedRecipientsResult.ts';
+export * from './FlushExpiredInboxesResult.ts';
+export * from './ForwardEmailOptions.ts';
+export * from './GenerateBimiRecordOptions.ts';
+export * from './GenerateBimiRecordResults.ts';
+export * from './GenerateDmarcRecordOptions.ts';
+export * from './GenerateDmarcRecordResults.ts';
+export * from './GenerateMtaStsRecordOptions.ts';
+export * from './GenerateMtaStsRecordResults.ts';
+export * from './GenerateSpfRecordOptions.ts';
+export * from './GenerateSpfRecordResults.ts';
+export * from './GenerateStructuredContentAttachmentOptions.ts';
+export * from './GenerateStructuredContentEmailOptions.ts';
+export * from './GenerateStructuredContentSmsOptions.ts';
+export * from './GenerateTlsReportingRecordOptions.ts';
+export * from './GenerateTlsReportingRecordResults.ts';
+export * from './GetEmailScreenshotOptions.ts';
+export * from './GetOrCreatePhonePoolOptions.ts';
+export * from './GravatarUrl.ts';
+export * from './GroupContactsDto.ts';
+export * from './GroupDto.ts';
+export * from './GroupProjection.ts';
+export * from './GuestPortalDto.ts';
+export * from './GuestPortalUserCreateDto.ts';
+export * from './GuestPortalUserDto.ts';
+export * from './GuestPortalUserProjection.ts';
+export * from './HTMLValidationResult.ts';
+export * from './IPAddressResult.ts';
+export * from './ImageIssue.ts';
+export * from './ImapAccessDetails.ts';
+export * from './ImapEmailProjection.ts';
+export * from './ImapFlagOperationOptions.ts';
+export * from './ImapMailboxStatus.ts';
+export * from './ImapServerFetchItem.ts';
+export * from './ImapServerFetchResult.ts';
+export * from './ImapServerGetResult.ts';
+export * from './ImapServerListOptions.ts';
+export * from './ImapServerListResult.ts';
+export * from './ImapServerMailboxResult.ts';
+export * from './ImapServerSearchOptions.ts';
+export * from './ImapServerSearchResult.ts';
+export * from './ImapServerStatusOptions.ts';
+export * from './ImapServerStatusResult.ts';
+export * from './ImapSmtpAccessDetails.ts';
+export * from './ImapSmtpAccessServers.ts';
+export * from './ImapUpdateFlagsOptions.ts';
+export * from './InboxByEmailAddressResult.ts';
+export * from './InboxByNameResult.ts';
+export * from './InboxDto.ts';
+export * from './InboxExistsDto.ts';
+export * from './InboxForwarderDto.ts';
+export * from './InboxForwarderEventDto.ts';
+export * from './InboxForwarderEventProjection.ts';
+export * from './InboxForwarderTestOptions.ts';
+export * from './InboxForwarderTestResult.ts';
+export * from './InboxIdItem.ts';
+export * from './InboxIdsResult.ts';
+export * from './InboxPreview.ts';
+export * from './InboxReplierDto.ts';
+export * from './InboxReplierEventProjection.ts';
+export * from './InboxRetentionPolicyDto.ts';
+export * from './InboxRetentionPolicyOptionalDto.ts';
+export * from './InboxRulesetTestResult.ts';
+export * from './InlineObject1.ts';
+export * from './InvokeTransformerOptions.ts';
+export * from './JSONSchemaDto.ts';
+export * from './LinkIssue.ts';
+export * from './ListUnsubscribeRecipientProjection.ts';
+export * from './LookupBimiDomainOptions.ts';
+export * from './LookupBimiDomainResults.ts';
+export * from './LookupDkimDomainOptions.ts';
+export * from './LookupDkimDomainResults.ts';
+export * from './LookupDmarcDomainOptions.ts';
+export * from './LookupDmarcDomainResults.ts';
+export * from './LookupMtaStsDomainOptions.ts';
+export * from './LookupMtaStsDomainResults.ts';
+export * from './LookupMxRecordsOptions.ts';
+export * from './LookupMxRecordsResults.ts';
+export * from './LookupPtrOptions.ts';
+export * from './LookupPtrResults.ts';
+export * from './LookupSpfDomainOptions.ts';
+export * from './LookupSpfDomainResults.ts';
+export * from './LookupTlsReportingDomainOptions.ts';
+export * from './LookupTlsReportingDomainResults.ts';
+export * from './MatchOption.ts';
+export * from './MatchOptions.ts';
+export * from './MissedEmailDto.ts';
+export * from './MissedEmailProjection.ts';
+export * from './MissedSmsDto.ts';
+export * from './MissedSmsProjection.ts';
+export * from './NameServerRecord.ts';
+export * from './NewFakeEmailAddressResult.ts';
+export * from './OptInConsentOptions.ts';
+export * from './OptInConsentSendResult.ts';
+export * from './OptInIdentityProjection.ts';
+export * from './OptInSendingConsentDto.ts';
+export * from './OptionalConnectorDto.ts';
+export * from './OptionalConnectorImapConnectionDto.ts';
+export * from './OptionalConnectorSmtpConnectionDto.ts';
+export * from './OptionalConnectorSyncSettingsDto.ts';
+export * from './OrganizationInboxProjection.ts';
+export * from './PageAITransformMappingProjection.ts';
+export * from './PageAITransformProjection.ts';
+export * from './PageAITransformResultProjection.ts';
+export * from './PageAlias.ts';
+export * from './PageAliasThreadProjection.ts';
+export * from './PageAttachmentEntity.ts';
+export * from './PageBouncedEmail.ts';
+export * from './PageBouncedRecipients.ts';
+export * from './PageComplaint.ts';
+export * from './PageConnector.ts';
+export * from './PageConnectorEvents.ts';
+export * from './PageContactProjection.ts';
+export * from './PageDeliveryStatus.ts';
+export * from './PageDevicePreviewRunProjection.ts';
+export * from './PageEmailPreview.ts';
+export * from './PageEmailProjection.ts';
+export * from './PageEmailThreadProjection.ts';
+export * from './PageEmailValidationRequest.ts';
+export * from './PageEntityAutomationItems.ts';
+export * from './PageEntityEventItems.ts';
+export * from './PageEntityFavouriteItems.ts';
+export * from './PageExpiredInboxRecordProjection.ts';
+export * from './PageGroupProjection.ts';
+export * from './PageGuestPortalUsers.ts';
+export * from './PageInboxForwarderDto.ts';
+export * from './PageInboxForwarderEvents.ts';
+export * from './PageInboxProjection.ts';
+export * from './PageInboxReplierDto.ts';
+export * from './PageInboxReplierEvents.ts';
+export * from './PageInboxTags.ts';
+export * from './PageListUnsubscribeRecipients.ts';
+export * from './PageMissedEmailProjection.ts';
+export * from './PageMissedSmsProjection.ts';
+export * from './PageOptInIdentityProjection.ts';
+export * from './PageOrganizationInboxProjection.ts';
+export * from './PagePhoneMessageThreadItemProjection.ts';
+export * from './PagePhoneMessageThreadProjection.ts';
+export * from './PagePhoneNumberProjection.ts';
+export * from './PagePhoneNumberReleaseProjection.ts';
+export * from './PagePlusAddressProjection.ts';
+export * from './PageReputationItems.ts';
+export * from './PageRulesetDto.ts';
+export * from './PageScheduledJobs.ts';
+export * from './PageSentEmailProjection.ts';
+export * from './PageSentEmailWithQueueProjection.ts';
+export * from './PageSentSmsProjection.ts';
+export * from './PageSmsProjection.ts';
+export * from './PageTableData.ts';
+export * from './PageTemplateProjection.ts';
+export * from './PageTrackingPixelProjection.ts';
+export * from './PageUnknownMissedEmailProjection.ts';
+export * from './PageWebhookEndpointProjection.ts';
+export * from './PageWebhookProjection.ts';
+export * from './PageWebhookResult.ts';
+export * from './PageableObject.ts';
+export * from './Pagination.ts';
+export * from './PhoneMessageThreadItemProjection.ts';
+export * from './PhoneMessageThreadProjection.ts';
+export * from './PhoneNumberDto.ts';
+export * from './PhoneNumberLineTypeIntelligenceDto.ts';
+export * from './PhoneNumberLineTypeLookupDto.ts';
+export * from './PhoneNumberProjection.ts';
+export * from './PhoneNumberReleaseProjection.ts';
+export * from './PhoneNumberValidationDto.ts';
+export * from './PhonePlanAvailability.ts';
+export * from './PhonePlanAvailabilityItem.ts';
+export * from './PhonePlanDto.ts';
+export * from './PhonePoolDetailDto.ts';
+export * from './PhonePoolDto.ts';
+export * from './PhonePoolLeaseDto.ts';
+export * from './PhonePoolMemberDto.ts';
+export * from './PhoneProviderCapabilitiesResult.ts';
+export * from './PhoneProvisioningJobDto.ts';
+export * from './PhoneProvisioningJobItemDto.ts';
+export * from './PhoneSmsPrepaidCreditDto.ts';
+export * from './PhoneSmsPrepaidCreditsDto.ts';
+export * from './PhoneSummaryCountryDto.ts';
+export * from './PhoneSummaryDto.ts';
+export * from './PlanSummaryDto.ts';
+export * from './PlusAddressDto.ts';
+export * from './PlusAddressProjection.ts';
+export * from './ProviderSettings.ts';
+export * from './RawEmailJson.ts';
+export * from './Recipient.ts';
+export * from './RecipientProjection.ts';
+export * from './ReplyForSms.ts';
+export * from './ReplyToAliasEmailOptions.ts';
+export * from './ReplyToEmailOptions.ts';
+export * from './ReputationItemProjection.ts';
+export * from './RulesetDto.ts';
+export * from './RulesetTestOptions.ts';
+export * from './ScheduledJob.ts';
+export * from './ScheduledJobDto.ts';
+export * from './SearchAvailablePhoneNumbersOptions.ts';
+export * from './SearchEmailsOptions.ts';
+export * from './SearchInboxesOptions.ts';
+export * from './SendEmailBodyPart.ts';
+export * from './SendEmailOptions.ts';
+export * from './SendOptInConsentEmailOptions.ts';
+export * from './SendSMTPEnvelopeOptions.ts';
+export * from './SendWithQueueResult.ts';
+export * from './Sender.ts';
+export * from './SenderProjection.ts';
+export * from './SentEmailDto.ts';
+export * from './SentEmailProjection.ts';
+export * from './SentSmsDto.ts';
+export * from './SentSmsProjection.ts';
+export * from './ServerEndpoints.ts';
+export * from './SetInboxFavouritedOptions.ts';
+export * from './SetPhoneFavouritedOptions.ts';
+export * from './SimpleSendEmailOptions.ts';
+export * from './SmsDto.ts';
+export * from './SmsMatchOption.ts';
+export * from './SmsPreview.ts';
+export * from './SmsProjection.ts';
+export * from './SmsReplyOptions.ts';
+export * from './SmsSendOptions.ts';
+export * from './SmtpAccessDetails.ts';
+export * from './SmtpAuthDiagnosticResult.ts';
+export * from './SmtpDiagnosticStep.ts';
+export * from './SmtpTlsDiagnosticResult.ts';
+export * from './SortObject.ts';
+export * from './SpellingIssue.ts';
+export * from './SpfMechanismResult.ts';
+export * from './StructuredContentResultDto.ts';
+export * from './StructuredOutputSchema.ts';
+export * from './StructuredOutputSchemaValidation.ts';
+export * from './TemplateDto.ts';
+export * from './TemplatePreview.ts';
+export * from './TemplateProjection.ts';
+export * from './TemplateVariable.ts';
+export * from './TenantReputationFindingDto.ts';
+export * from './TenantReputationFindingsDto.ts';
+export * from './TenantReputationStatusRowDto.ts';
+export * from './TenantReputationStatusSummaryDto.ts';
+export * from './TestInboxRulesetSendingOptions.ts';
+export * from './TestNewInboxForwarderOptions.ts';
+export * from './TestNewInboxRulesetOptions.ts';
+export * from './TestPhoneNumberOptions.ts';
+export * from './TestRulesetReceivingOptions.ts';
+export * from './TestRulesetReceivingResult.ts';
+export * from './TestRulesetSendingResult.ts';
+export * from './TestSmtpServerOptions.ts';
+export * from './TestSmtpServerResults.ts';
+export * from './TotpDeviceCodeDto.ts';
+export * from './TotpDeviceDto.ts';
+export * from './TotpDeviceOptionalDto.ts';
+export * from './TrackingPixelDto.ts';
+export * from './TrackingPixelProjection.ts';
+export * from './UnknownMissedEmailProjection.ts';
+export * from './UnreadCount.ts';
+export * from './UnseenErrorCountDto.ts';
+export * from './UpdateAliasOptions.ts';
+export * from './UpdateCampaignProbeOptions.ts';
+export * from './UpdateDeliverabilityTestOptions.ts';
+export * from './UpdateDevicePreviewFeedbackOptions.ts';
+export * from './UpdateDomainMonitorOptions.ts';
+export * from './UpdateDomainOptions.ts';
+export * from './UpdateGroupContacts.ts';
+export * from './UpdateImapAccessOptions.ts';
+export * from './UpdateInboxOptions.ts';
+export * from './UpdateInboxReplierOptions.ts';
+export * from './UpdatePhoneNumberOptions.ts';
+export * from './UpdatePhonePoolOptions.ts';
+export * from './UpdateSmtpAccessOptions.ts';
+export * from './UploadAttachmentOptions.ts';
+export * from './UserInfoDto.ts';
+export * from './ValidateEmailAddressListOptions.ts';
+export * from './ValidateEmailAddressListResult.ts';
+export * from './ValidatePhoneNumberOptions.ts';
+export * from './ValidationDto.ts';
+export * from './ValidationMessage.ts';
+export * from './VerifyEmailAddressOptions.ts';
+export * from './VerifyWebhookSignatureOptions.ts';
+export * from './VerifyWebhookSignatureResults.ts';
+export * from './WaitForConditions.ts';
+export * from './WaitForSingleSmsOptions.ts';
+export * from './WaitForSmsConditions.ts';
+export * from './WebhookBouncePayload.ts';
+export * from './WebhookBounceRecipientPayload.ts';
+export * from './WebhookDeliveryStatusPayload.ts';
+export * from './WebhookDto.ts';
+export * from './WebhookEmailOpenedPayload.ts';
+export * from './WebhookEmailReadPayload.ts';
+export * from './WebhookEndpointProjection.ts';
+export * from './WebhookHeaderNameValue.ts';
+export * from './WebhookHeaders.ts';
+export * from './WebhookNewAITransformResultPayload.ts';
+export * from './WebhookNewAttachmentPayload.ts';
+export * from './WebhookNewContactPayload.ts';
+export * from './WebhookNewEmailPayload.ts';
+export * from './WebhookNewSmsPayload.ts';
+export * from './WebhookProjection.ts';
+export * from './WebhookRedriveAllResult.ts';
+export * from './WebhookRedriveResult.ts';
+export * from './WebhookResultDto.ts';
+export * from './WebhookTestRequest.ts';
+export * from './WebhookTestResponse.ts';
+export * from './WebhookTestResult.ts';
+
+import { AIMappingMatchOption, AIMappingMatchOptionFieldEnum  , AIMappingMatchOptionShouldEnum    } from './AIMappingMatchOption.ts';
+import { AIMappingMatchOptions } from './AIMappingMatchOptions.ts';
+import { AITransformCreateOptions } from './AITransformCreateOptions.ts';
+import { AITransformDto } from './AITransformDto.ts';
+import { AITransformMappingDto      , AITransformMappingDtoEntityTypeEnum    } from './AITransformMappingDto.ts';
+import { AITransformMappingMatchResult } from './AITransformMappingMatchResult.ts';
+import { AITransformMappingProjection    , AITransformMappingProjectionEntityTypeEnum    , AITransformMappingProjectionContentSelectorEnum  , AITransformMappingProjectionTriggerSelectorEnum   } from './AITransformMappingProjection.ts';
+import { AITransformProjection } from './AITransformProjection.ts';
+import { AITransformResultDto      , AITransformResultDtoEntityTypeEnum         } from './AITransformResultDto.ts';
+import { AITransformResultProjectionDto      , AITransformResultProjectionDtoEntityTypeEnum       } from './AITransformResultProjectionDto.ts';
+import { AbstractWebhookPayload, AbstractWebhookPayloadEventNameEnum      } from './AbstractWebhookPayload.ts';
+import { AccountBounceBlockDto } from './AccountBounceBlockDto.ts';
+import { AcquirePhonePoolLeaseOptions } from './AcquirePhonePoolLeaseOptions.ts';
+import { AddPhonePoolNumbersOptions } from './AddPhonePoolNumbersOptions.ts';
+import { AliasDto } from './AliasDto.ts';
+import { AliasProjection } from './AliasProjection.ts';
+import { AliasThreadProjection } from './AliasThreadProjection.ts';
+import { AnalyzeDmarcReportOptions } from './AnalyzeDmarcReportOptions.ts';
+import { AnalyzeDmarcReportResults } from './AnalyzeDmarcReportResults.ts';
+import { AnalyzeEmailHeadersOptions } from './AnalyzeEmailHeadersOptions.ts';
+import { AnalyzeEmailHeadersResults } from './AnalyzeEmailHeadersResults.ts';
+import { AttachmentEntityDto } from './AttachmentEntityDto.ts';
+import { AttachmentMetaData } from './AttachmentMetaData.ts';
+import { AttachmentProjection } from './AttachmentProjection.ts';
+import { AuditLogEventDto } from './AuditLogEventDto.ts';
+import { AuditLogPageDto } from './AuditLogPageDto.ts';
+import { AuditLogSearchOptions } from './AuditLogSearchOptions.ts';
+import { AvailablePhoneNumberDto , AvailablePhoneNumberDtoPhoneCountryEnum  , AvailablePhoneNumberDtoPhoneVariantEnum        } from './AvailablePhoneNumberDto.ts';
+import { AvailablePhoneNumbersResult } from './AvailablePhoneNumbersResult.ts';
+import { BasicAuthOptions } from './BasicAuthOptions.ts';
+import { BounceProjection } from './BounceProjection.ts';
+import { BounceRecipientProjection } from './BounceRecipientProjection.ts';
+import { BouncedEmailDto } from './BouncedEmailDto.ts';
+import { BouncedRecipientDto } from './BouncedRecipientDto.ts';
+import { BulkSendEmailOptions } from './BulkSendEmailOptions.ts';
+import { CampaignProbeDto         , CampaignProbeDtoLastRunStatusEnum        } from './CampaignProbeDto.ts';
+import { CampaignProbeInsightsDto } from './CampaignProbeInsightsDto.ts';
+import { CampaignProbeRunComparisonDto } from './CampaignProbeRunComparisonDto.ts';
+import { CampaignProbeRunDto   , CampaignProbeRunDtoStatusEnum  , CampaignProbeRunDtoSourceEnum                             } from './CampaignProbeRunDto.ts';
+import { CampaignProbeRunDueResult, CampaignProbeRunDueResultTriggerSourceEnum        } from './CampaignProbeRunDueResult.ts';
+import { CampaignProbeRunNowResult } from './CampaignProbeRunNowResult.ts';
+import { CampaignProbeSeriesDto   , CampaignProbeSeriesDtoBucketEnum    } from './CampaignProbeSeriesDto.ts';
+import { CampaignProbeSeriesPointDto } from './CampaignProbeSeriesPointDto.ts';
+import { CanSendEmailResults } from './CanSendEmailResults.ts';
+import { CancelDevicePreviewRunOptions } from './CancelDevicePreviewRunOptions.ts';
+import { CancelDevicePreviewRunResult } from './CancelDevicePreviewRunResult.ts';
+import { CheckCampaignProbeOptions } from './CheckCampaignProbeOptions.ts';
+import { CheckCampaignProbeResults, CheckCampaignProbeResultsStatusEnum                    } from './CheckCampaignProbeResults.ts';
+import { CheckDnsPropagationOptions , CheckDnsPropagationOptionsRecordTypeEnum     } from './CheckDnsPropagationOptions.ts';
+import { CheckDnsPropagationResults , CheckDnsPropagationResultsRecordTypeEnum          } from './CheckDnsPropagationResults.ts';
+import { CheckDomainMonitorOptions } from './CheckDomainMonitorOptions.ts';
+import { CheckDomainMonitorResults , CheckDomainMonitorResultsStatusEnum             } from './CheckDomainMonitorResults.ts';
+import { CheckEmailAuditOptions } from './CheckEmailAuditOptions.ts';
+import { CheckEmailAuthStackOptions } from './CheckEmailAuthStackOptions.ts';
+import { CheckEmailAuthStackResults , CheckEmailAuthStackResultsStatusEnum                 } from './CheckEmailAuthStackResults.ts';
+import { CheckEmailBlacklistOptions } from './CheckEmailBlacklistOptions.ts';
+import { CheckEmailBlacklistResults   , CheckEmailBlacklistResultsStatusEnum         } from './CheckEmailBlacklistResults.ts';
+import { CheckEmailBodyFeatureSupportResults } from './CheckEmailBodyFeatureSupportResults.ts';
+import { CheckEmailBodyResults } from './CheckEmailBodyResults.ts';
+import { CheckEmailClientSupportOptions } from './CheckEmailClientSupportOptions.ts';
+import { CheckEmailClientSupportResults } from './CheckEmailClientSupportResults.ts';
+import { CheckEmailFeaturesClientSupportOptions } from './CheckEmailFeaturesClientSupportOptions.ts';
+import { CheckEmailFeaturesClientSupportResults } from './CheckEmailFeaturesClientSupportResults.ts';
+import { CodeCandidate  , CodeCandidateMethodEnum     } from './CodeCandidate.ts';
+import { Complaint } from './Complaint.ts';
+import { ConditionOption, ConditionOptionConditionEnum  , ConditionOptionValueEnum   } from './ConditionOption.ts';
+import { ConditionalStructuredContentResult } from './ConditionalStructuredContentResult.ts';
+import { ConnectorDto } from './ConnectorDto.ts';
+import { ConnectorEventDto  , ConnectorEventDtoStatusEnum  , ConnectorEventDtoEventTypeEnum        } from './ConnectorEventDto.ts';
+import { ConnectorEventProjection   , ConnectorEventProjectionEventTypeEnum     , ConnectorEventProjectionStatusEnum   } from './ConnectorEventProjection.ts';
+import { ConnectorImapConnectionDto } from './ConnectorImapConnectionDto.ts';
+import { ConnectorImapConnectionTestResult } from './ConnectorImapConnectionTestResult.ts';
+import { ConnectorProjection } from './ConnectorProjection.ts';
+import { ConnectorProviderSettingsDto } from './ConnectorProviderSettingsDto.ts';
+import { ConnectorSmtpConnectionDto } from './ConnectorSmtpConnectionDto.ts';
+import { ConnectorSmtpConnectionTestResult } from './ConnectorSmtpConnectionTestResult.ts';
+import { ConnectorSyncRequestResult } from './ConnectorSyncRequestResult.ts';
+import { ConnectorSyncResult } from './ConnectorSyncResult.ts';
+import { ConnectorSyncSettingsDto    , ConnectorSyncSettingsDtoSyncScheduleTypeEnum    } from './ConnectorSyncSettingsDto.ts';
+import { ConsentStatusDto } from './ConsentStatusDto.ts';
+import { ContactDto } from './ContactDto.ts';
+import { ContactProjection } from './ContactProjection.ts';
+import { ContentMatchOptions } from './ContentMatchOptions.ts';
+import { CountDto } from './CountDto.ts';
+import { CreateAITransformerMappingOptions   , CreateAITransformerMappingOptionsEntityTypeEnum  , CreateAITransformerMappingOptionsContentSelectorEnum  , CreateAITransformerMappingOptionsTriggerSelectorEnum     } from './CreateAITransformerMappingOptions.ts';
+import { CreateAliasOptions } from './CreateAliasOptions.ts';
+import { CreateCampaignProbeOptions } from './CreateCampaignProbeOptions.ts';
+import { CreateCampaignProbeRunOptions } from './CreateCampaignProbeRunOptions.ts';
+import { CreateConnectorImapConnectionOptions } from './CreateConnectorImapConnectionOptions.ts';
+import { CreateConnectorOptions } from './CreateConnectorOptions.ts';
+import { CreateConnectorSmtpConnectionOptions } from './CreateConnectorSmtpConnectionOptions.ts';
+import { CreateConnectorSyncSettingsOptions , CreateConnectorSyncSettingsOptionsSyncScheduleTypeEnum    } from './CreateConnectorSyncSettingsOptions.ts';
+import { CreateConnectorWithOptions } from './CreateConnectorWithOptions.ts';
+import { CreateContactOptions } from './CreateContactOptions.ts';
+import { CreateDeliverabilitySimulationJobOptions } from './CreateDeliverabilitySimulationJobOptions.ts';
+import { CreateDeliverabilityTestOptions  , CreateDeliverabilityTestOptionsScopeEnum        } from './CreateDeliverabilityTestOptions.ts';
+import { CreateDevicePreviewFeedbackOptions, CreateDevicePreviewFeedbackOptionsSourceEnum  , CreateDevicePreviewFeedbackOptionsCategoryEnum  , CreateDevicePreviewFeedbackOptionsStatusEnum      , CreateDevicePreviewFeedbackOptionsProviderEnum         } from './CreateDevicePreviewFeedbackOptions.ts';
+import { CreateDevicePreviewOptions, CreateDevicePreviewOptionsProvidersEnum    } from './CreateDevicePreviewOptions.ts';
+import { CreateDevicePreviewRunResult } from './CreateDevicePreviewRunResult.ts';
+import { CreateDomainMonitorAlertSinkOptions, CreateDomainMonitorAlertSinkOptionsTypeEnum   , CreateDomainMonitorAlertSinkOptionsSeverityThresholdEnum    } from './CreateDomainMonitorAlertSinkOptions.ts';
+import { CreateDomainMonitorOptions } from './CreateDomainMonitorOptions.ts';
+import { CreateDomainOptions   , CreateDomainOptionsDomainTypeEnum   } from './CreateDomainOptions.ts';
+import { CreateEmailAuditOptions } from './CreateEmailAuditOptions.ts';
+import { CreateEmergencyAddressOptions     , CreateEmergencyAddressOptionsIsoCountryCodeEnum    } from './CreateEmergencyAddressOptions.ts';
+import { CreateGroupOptions } from './CreateGroupOptions.ts';
+import { CreateInboxDto           , CreateInboxDtoInboxTypeEnum      } from './CreateInboxDto.ts';
+import { CreateInboxForwarderOptions, CreateInboxForwarderOptionsFieldEnum     } from './CreateInboxForwarderOptions.ts';
+import { CreateInboxReplierOptions  , CreateInboxReplierOptionsFieldEnum             } from './CreateInboxReplierOptions.ts';
+import { CreateInboxRetentionPolicyForAccountOptions } from './CreateInboxRetentionPolicyForAccountOptions.ts';
+import { CreatePhoneNumberOptions, CreatePhoneNumberOptionsPhoneCountryEnum    , CreatePhoneNumberOptionsScheduleEnum   , CreatePhoneNumberOptionsPhoneNumberVariantEnum  , CreatePhoneNumberOptionsPhoneProviderEnum   } from './CreatePhoneNumberOptions.ts';
+import { CreatePhonePoolOptions } from './CreatePhonePoolOptions.ts';
+import { CreatePhoneProvisioningJobItemOptions } from './CreatePhoneProvisioningJobItemOptions.ts';
+import { CreatePhoneProvisioningJobOptions, CreatePhoneProvisioningJobOptionsPhoneCountryEnum  , CreatePhoneProvisioningJobOptionsPhoneVariantEnum    } from './CreatePhoneProvisioningJobOptions.ts';
+import { CreatePortalOptions } from './CreatePortalOptions.ts';
+import { CreatePortalUserOptions } from './CreatePortalUserOptions.ts';
+import { CreateRulesetOptions, CreateRulesetOptionsScopeEnum  , CreateRulesetOptionsActionEnum    } from './CreateRulesetOptions.ts';
+import { CreateTemplateOptions } from './CreateTemplateOptions.ts';
+import { CreateTotpDeviceBase32SecretKeyOptions } from './CreateTotpDeviceBase32SecretKeyOptions.ts';
+import { CreateTotpDeviceCustomOptions } from './CreateTotpDeviceCustomOptions.ts';
+import { CreateTotpDeviceOtpAuthUrlOptions } from './CreateTotpDeviceOtpAuthUrlOptions.ts';
+import { CreateTrackingPixelOptions } from './CreateTrackingPixelOptions.ts';
+import { CreateWebhookOptions   , CreateWebhookOptionsEventNameEnum         } from './CreateWebhookOptions.ts';
+import { DNSLookupOptions , DNSLookupOptionsRecordTypesEnum    } from './DNSLookupOptions.ts';
+import { DNSLookupResult, DNSLookupResultRecordTypeEnum      } from './DNSLookupResult.ts';
+import { DNSLookupResults } from './DNSLookupResults.ts';
+import { DNSLookupsOptions } from './DNSLookupsOptions.ts';
+import { DeleteDevicePreviewRunResult } from './DeleteDevicePreviewRunResult.ts';
+import { DeleteResult, DeleteResultStatusEnum   } from './DeleteResult.ts';
+import { DeliverabilityAnalyticsRunDto  , DeliverabilityAnalyticsRunDtoScopeEnum  , DeliverabilityAnalyticsRunDtoStatusEnum          , DeliverabilityAnalyticsRunDtoThresholdStatusEnum   } from './DeliverabilityAnalyticsRunDto.ts';
+import { DeliverabilityAnalyticsSeriesDto  , DeliverabilityAnalyticsSeriesDtoScopeEnum  , DeliverabilityAnalyticsSeriesDtoBucketEnum      } from './DeliverabilityAnalyticsSeriesDto.ts';
+import { DeliverabilityAnalyticsSeriesPointDto } from './DeliverabilityAnalyticsSeriesPointDto.ts';
+import { DeliverabilityAnalyticsSummaryDto } from './DeliverabilityAnalyticsSummaryDto.ts';
+import { DeliverabilityEntityResultDto     , DeliverabilityEntityResultDtoPhoneCountryEnum  , DeliverabilityEntityResultDtoPhoneVariantEnum     } from './DeliverabilityEntityResultDto.ts';
+import { DeliverabilityEntityResultPageDto } from './DeliverabilityEntityResultPageDto.ts';
+import { DeliverabilityExpectation } from './DeliverabilityExpectation.ts';
+import { DeliverabilityExpectationResultDto } from './DeliverabilityExpectationResultDto.ts';
+import { DeliverabilityFailureEntityHotspotDto  , DeliverabilityFailureEntityHotspotDtoScopeEnum  , DeliverabilityFailureEntityHotspotDtoPhoneCountryEnum  , DeliverabilityFailureEntityHotspotDtoPhoneVariantEnum      } from './DeliverabilityFailureEntityHotspotDto.ts';
+import { DeliverabilityFailureHotspotsDto  , DeliverabilityFailureHotspotsDtoScopeEnum     } from './DeliverabilityFailureHotspotsDto.ts';
+import { DeliverabilityFailurePhoneDimensionHotspotDto, DeliverabilityFailurePhoneDimensionHotspotDtoPhoneCountryEnum  , DeliverabilityFailurePhoneDimensionHotspotDtoPhoneVariantEnum      } from './DeliverabilityFailurePhoneDimensionHotspotDto.ts';
+import { DeliverabilityPollStatusResultDto } from './DeliverabilityPollStatusResultDto.ts';
+import { DeliverabilitySelectorOptions, DeliverabilitySelectorOptionsTypeEnum   , DeliverabilitySelectorOptionsPhoneCountryEnum     } from './DeliverabilitySelectorOptions.ts';
+import { DeliverabilitySimulationEmailOptions } from './DeliverabilitySimulationEmailOptions.ts';
+import { DeliverabilitySimulationJobConfigDto } from './DeliverabilitySimulationJobConfigDto.ts';
+import { DeliverabilitySimulationJobDto  , DeliverabilitySimulationJobDtoScopeEnum  , DeliverabilitySimulationJobDtoStatusEnum                  } from './DeliverabilitySimulationJobDto.ts';
+import { DeliverabilitySimulationJobErrorSummaryDto } from './DeliverabilitySimulationJobErrorSummaryDto.ts';
+import { DeliverabilitySimulationJobEventDto , DeliverabilitySimulationJobEventDtoEventTypeEnum           } from './DeliverabilitySimulationJobEventDto.ts';
+import { DeliverabilitySimulationJobEventPageDto } from './DeliverabilitySimulationJobEventPageDto.ts';
+import { DeliverabilitySimulationJobTopErrorDto } from './DeliverabilitySimulationJobTopErrorDto.ts';
+import { DeliverabilitySimulationSmsOptions } from './DeliverabilitySimulationSmsOptions.ts';
+import { DeliverabilityTestDto   , DeliverabilityTestDtoScopeEnum     , DeliverabilityTestDtoStatusEnum       , DeliverabilityTestDtoThresholdStatusEnum             } from './DeliverabilityTestDto.ts';
+import { DeliverabilityTestPageDto } from './DeliverabilityTestPageDto.ts';
+import { DeliveryStatusDto } from './DeliveryStatusDto.ts';
+import { DescribeDomainOptions } from './DescribeDomainOptions.ts';
+import { DescribeMailServerDomainResult } from './DescribeMailServerDomainResult.ts';
+import { DevicePreviewFeedbackDto  , DevicePreviewFeedbackDtoSourceEnum  , DevicePreviewFeedbackDtoCategoryEnum  , DevicePreviewFeedbackDtoStatusEnum      , DevicePreviewFeedbackDtoProviderEnum           } from './DevicePreviewFeedbackDto.ts';
+import { DevicePreviewFeedbackListDto } from './DevicePreviewFeedbackListDto.ts';
+import { DevicePreviewProviderProgressDto , DevicePreviewProviderProgressDtoProviderEnum  , DevicePreviewProviderProgressDtoStatusEnum          } from './DevicePreviewProviderProgressDto.ts';
+import { DevicePreviewRunDto  , DevicePreviewRunDtoStatusEnum   , DevicePreviewRunDtoRequestedProvidersEnum  , DevicePreviewRunDtoImportedProvidersEnum         } from './DevicePreviewRunDto.ts';
+import { DevicePreviewRunResultsDto } from './DevicePreviewRunResultsDto.ts';
+import { DevicePreviewScreenshotDto } from './DevicePreviewScreenshotDto.ts';
+import { DevicePreviewTargetDto        , DevicePreviewTargetDtoStatusEnum       } from './DevicePreviewTargetDto.ts';
+import { DmarcReportMetadata } from './DmarcReportMetadata.ts';
+import { DmarcReportSourceSummary } from './DmarcReportSourceSummary.ts';
+import { DnsPropagationResolverResult } from './DnsPropagationResolverResult.ts';
+import { DomainDto              , DomainDtoDomainTypeEnum   } from './DomainDto.ts';
+import { DomainGroup, DomainGroupLabelEnum    } from './DomainGroup.ts';
+import { DomainGroupsDto } from './DomainGroupsDto.ts';
+import { DomainInformation  , DomainInformationDomainTypeEnum   } from './DomainInformation.ts';
+import { DomainIssuesDto } from './DomainIssuesDto.ts';
+import { DomainMonitorAlertSinkDto   , DomainMonitorAlertSinkDtoTypeEnum   , DomainMonitorAlertSinkDtoSeverityThresholdEnum      } from './DomainMonitorAlertSinkDto.ts';
+import { DomainMonitorDto       , DomainMonitorDtoLastStatusEnum        } from './DomainMonitorDto.ts';
+import { DomainMonitorInsightsDto } from './DomainMonitorInsightsDto.ts';
+import { DomainMonitorRunComparisonDto } from './DomainMonitorRunComparisonDto.ts';
+import { DomainMonitorRunDto    , DomainMonitorRunDtoStatusEnum  , DomainMonitorRunDtoTriggerSourceEnum               } from './DomainMonitorRunDto.ts';
+import { DomainMonitorRunDueResult, DomainMonitorRunDueResultTriggerSourceEnum      } from './DomainMonitorRunDueResult.ts';
+import { DomainMonitorRunNowResult } from './DomainMonitorRunNowResult.ts';
+import { DomainMonitorSeriesDto   , DomainMonitorSeriesDtoBucketEnum    } from './DomainMonitorSeriesDto.ts';
+import { DomainMonitorSeriesPointDto } from './DomainMonitorSeriesPointDto.ts';
+import { DomainMonitorSummaryDto } from './DomainMonitorSummaryDto.ts';
+import { DomainNameRecord, DomainNameRecordLabelEnum   , DomainNameRecordRecordTypeEnum       } from './DomainNameRecord.ts';
+import { DomainPreview    , DomainPreviewDomainTypeEnum     } from './DomainPreview.ts';
+import { DomainRegionGroup, DomainRegionGroupLabelEnum    } from './DomainRegionGroup.ts';
+import { DomainRegionGroupsDto } from './DomainRegionGroupsDto.ts';
+import { DomainRegionInformation  , DomainRegionInformationDomainTypeEnum  , DomainRegionInformationAccountRegionEnum      } from './DomainRegionInformation.ts';
+import { DownloadAttachmentDto } from './DownloadAttachmentDto.ts';
+import { Email } from './Email.ts';
+import { EmailAnalysis } from './EmailAnalysis.ts';
+import { EmailAuditAnalysisResult, EmailAuditAnalysisResultStatusEnum                              } from './EmailAuditAnalysisResult.ts';
+import { EmailAuditComparisonDto } from './EmailAuditComparisonDto.ts';
+import { EmailAuditDto } from './EmailAuditDto.ts';
+import { EmailAuditSpellingIssue  , EmailAuditSpellingIssueSeverityEnum    } from './EmailAuditSpellingIssue.ts';
+import { EmailAuditUrlIssue } from './EmailAuditUrlIssue.ts';
+import { EmailAvailableResult } from './EmailAvailableResult.ts';
+import { EmailBlacklistIpResult } from './EmailBlacklistIpResult.ts';
+import { EmailBlacklistListingResult } from './EmailBlacklistListingResult.ts';
+import { EmailContentMatchResult } from './EmailContentMatchResult.ts';
+import { EmailContentPartResult } from './EmailContentPartResult.ts';
+import { EmailFeatureCategoryName, EmailFeatureCategoryNameSlugEnum    } from './EmailFeatureCategoryName.ts';
+import { EmailFeatureFamilyName, EmailFeatureFamilyNameSlugEnum    } from './EmailFeatureFamilyName.ts';
+import { EmailFeatureFamilyStatistics, EmailFeatureFamilyStatisticsFeatureEnum  , EmailFeatureFamilyStatisticsFamilyEnum    } from './EmailFeatureFamilyStatistics.ts';
+import { EmailFeatureNames } from './EmailFeatureNames.ts';
+import { EmailFeatureOverview, EmailFeatureOverviewFeatureEnum    , EmailFeatureOverviewCategoryEnum     , EmailFeatureOverviewStatusesEnum   } from './EmailFeatureOverview.ts';
+import { EmailFeaturePlatformName, EmailFeaturePlatformNameSlugEnum    } from './EmailFeaturePlatformName.ts';
+import { EmailFeaturePlatformStatistics, EmailFeaturePlatformStatisticsPlatformEnum    } from './EmailFeaturePlatformStatistics.ts';
+import { EmailFeatureSupportFlags, EmailFeatureSupportFlagsStatusEnum    } from './EmailFeatureSupportFlags.ts';
+import { EmailFeatureSupportResult , EmailFeatureSupportResultDetectedFeaturesEnum     } from './EmailFeatureSupportResult.ts';
+import { EmailFeatureSupportStatusPercentage, EmailFeatureSupportStatusPercentageStatusEnum    } from './EmailFeatureSupportStatusPercentage.ts';
+import { EmailFeatureVersionStatistics } from './EmailFeatureVersionStatistics.ts';
+import { EmailHeaderAnalysisSummary } from './EmailHeaderAnalysisSummary.ts';
+import { EmailHeaderReceivedHop } from './EmailHeaderReceivedHop.ts';
+import { EmailHtmlDto } from './EmailHtmlDto.ts';
+import { EmailLinksResult } from './EmailLinksResult.ts';
+import { EmailPreview } from './EmailPreview.ts';
+import { EmailPreviewUrls } from './EmailPreviewUrls.ts';
+import { EmailProjection } from './EmailProjection.ts';
+import { EmailRecipients } from './EmailRecipients.ts';
+import { EmailRecipientsProjection } from './EmailRecipientsProjection.ts';
+import { EmailScreenshotResult } from './EmailScreenshotResult.ts';
+import { EmailSignature } from './EmailSignature.ts';
+import { EmailSignatureParseResult } from './EmailSignatureParseResult.ts';
+import { EmailTextLinesResult } from './EmailTextLinesResult.ts';
+import { EmailThreadDto } from './EmailThreadDto.ts';
+import { EmailThreadItem, EmailThreadItemItemTypeEnum                   } from './EmailThreadItem.ts';
+import { EmailThreadItemsDto } from './EmailThreadItemsDto.ts';
+import { EmailThreadProjection } from './EmailThreadProjection.ts';
+import { EmailValidationRequestDto } from './EmailValidationRequestDto.ts';
+import { EmailVerificationResult } from './EmailVerificationResult.ts';
+import { EmergencyAddress         , EmergencyAddressPhoneCountryEnum      } from './EmergencyAddress.ts';
+import { EmergencyAddressDto  , EmergencyAddressDtoPhoneCountryEnum   } from './EmergencyAddressDto.ts';
+import { EmptyResponseDto } from './EmptyResponseDto.ts';
+import { EntityAutomationItemProjection     , EntityAutomationItemProjectionAutomationTypeEnum   } from './EntityAutomationItemProjection.ts';
+import { EntityEventItemProjection , EntityEventItemProjectionSeverityEnum  , EntityEventItemProjectionEventTypeEnum     } from './EntityEventItemProjection.ts';
+import { EntityFavouriteItemProjection   , EntityFavouriteItemProjectionEntityTypeEnum    } from './EntityFavouriteItemProjection.ts';
+import { ExpirationDefaults } from './ExpirationDefaults.ts';
+import { ExpiredInboxDto } from './ExpiredInboxDto.ts';
+import { ExpiredInboxRecordProjection } from './ExpiredInboxRecordProjection.ts';
+import { ExportLink } from './ExportLink.ts';
+import { ExportOptions, ExportOptionsOutputFormatEnum        } from './ExportOptions.ts';
+import { ExportTransformerOptions     , ExportTransformerOptionsFormatEnum            } from './ExportTransformerOptions.ts';
+import { ExportTransformerResponse , ExportTransformerResponseStatusEnum   } from './ExportTransformerResponse.ts';
+import { ExportTransformerResultJobDto , ExportTransformerResultJobDtoStatusEnum  , ExportTransformerResultJobDtoFormatEnum       } from './ExportTransformerResultJobDto.ts';
+import { ExtractAttachmentTextOptions, ExtractAttachmentTextOptionsMethodEnum     } from './ExtractAttachmentTextOptions.ts';
+import { ExtractAttachmentTextResult  , ExtractAttachmentTextResultMethodUsedEnum     } from './ExtractAttachmentTextResult.ts';
+import { ExtractCodesOptions, ExtractCodesOptionsMethodEnum        } from './ExtractCodesOptions.ts';
+import { ExtractCodesResult  , ExtractCodesResultMethodUsedEnum     } from './ExtractCodesResult.ts';
+import { FakeEmailDto } from './FakeEmailDto.ts';
+import { FakeEmailPreview } from './FakeEmailPreview.ts';
+import { FakeEmailResult } from './FakeEmailResult.ts';
+import { FilterBouncedRecipientsOptions } from './FilterBouncedRecipientsOptions.ts';
+import { FilterBouncedRecipientsResult } from './FilterBouncedRecipientsResult.ts';
+import { FlushExpiredInboxesResult } from './FlushExpiredInboxesResult.ts';
+import { ForwardEmailOptions } from './ForwardEmailOptions.ts';
+import { GenerateBimiRecordOptions , GenerateBimiRecordOptionsVersionEnum     } from './GenerateBimiRecordOptions.ts';
+import { GenerateBimiRecordResults , GenerateBimiRecordResultsTypeEnum     } from './GenerateBimiRecordResults.ts';
+import { GenerateDmarcRecordOptions , GenerateDmarcRecordOptionsVersionEnum  , GenerateDmarcRecordOptionsPolicyEnum  , GenerateDmarcRecordOptionsSubdomainPolicyEnum     , GenerateDmarcRecordOptionsReportFormatEnum   , GenerateDmarcRecordOptionsAdkimEnum  , GenerateDmarcRecordOptionsAspfEnum  , GenerateDmarcRecordOptionsFoEnum   } from './GenerateDmarcRecordOptions.ts';
+import { GenerateDmarcRecordResults , GenerateDmarcRecordResultsTypeEnum     } from './GenerateDmarcRecordResults.ts';
+import { GenerateMtaStsRecordOptions , GenerateMtaStsRecordOptionsVersionEnum  , GenerateMtaStsRecordOptionsModeEnum      } from './GenerateMtaStsRecordOptions.ts';
+import { GenerateMtaStsRecordResults , GenerateMtaStsRecordResultsTypeEnum       } from './GenerateMtaStsRecordResults.ts';
+import { GenerateSpfRecordOptions      , GenerateSpfRecordOptionsAllPolicyEnum   } from './GenerateSpfRecordOptions.ts';
+import { GenerateSpfRecordResults , GenerateSpfRecordResultsTypeEnum       } from './GenerateSpfRecordResults.ts';
+import { GenerateStructuredContentAttachmentOptions } from './GenerateStructuredContentAttachmentOptions.ts';
+import { GenerateStructuredContentEmailOptions , GenerateStructuredContentEmailOptionsContentSelectorEnum      } from './GenerateStructuredContentEmailOptions.ts';
+import { GenerateStructuredContentSmsOptions } from './GenerateStructuredContentSmsOptions.ts';
+import { GenerateTlsReportingRecordOptions   , GenerateTlsReportingRecordOptionsVersionEnum    } from './GenerateTlsReportingRecordOptions.ts';
+import { GenerateTlsReportingRecordResults , GenerateTlsReportingRecordResultsTypeEnum     } from './GenerateTlsReportingRecordResults.ts';
+import { GetEmailScreenshotOptions } from './GetEmailScreenshotOptions.ts';
+import { GetOrCreatePhonePoolOptions } from './GetOrCreatePhonePoolOptions.ts';
+import { GravatarUrl } from './GravatarUrl.ts';
+import { GroupContactsDto } from './GroupContactsDto.ts';
+import { GroupDto } from './GroupDto.ts';
+import { GroupProjection } from './GroupProjection.ts';
+import { GuestPortalDto } from './GuestPortalDto.ts';
+import { GuestPortalUserCreateDto } from './GuestPortalUserCreateDto.ts';
+import { GuestPortalUserDto } from './GuestPortalUserDto.ts';
+import { GuestPortalUserProjection } from './GuestPortalUserProjection.ts';
+import { HTMLValidationResult } from './HTMLValidationResult.ts';
+import { IPAddressResult } from './IPAddressResult.ts';
+import { ImageIssue  , ImageIssueSeverityEnum    } from './ImageIssue.ts';
+import { ImapAccessDetails } from './ImapAccessDetails.ts';
+import { ImapEmailProjection } from './ImapEmailProjection.ts';
+import { ImapFlagOperationOptions, ImapFlagOperationOptionsFlagOperationEnum    } from './ImapFlagOperationOptions.ts';
+import { ImapMailboxStatus } from './ImapMailboxStatus.ts';
+import { ImapServerFetchItem } from './ImapServerFetchItem.ts';
+import { ImapServerFetchResult } from './ImapServerFetchResult.ts';
+import { ImapServerGetResult } from './ImapServerGetResult.ts';
+import { ImapServerListOptions } from './ImapServerListOptions.ts';
+import { ImapServerListResult } from './ImapServerListResult.ts';
+import { ImapServerMailboxResult } from './ImapServerMailboxResult.ts';
+import { ImapServerSearchOptions } from './ImapServerSearchOptions.ts';
+import { ImapServerSearchResult } from './ImapServerSearchResult.ts';
+import { ImapServerStatusOptions , ImapServerStatusOptionsStatusItemsEnum   } from './ImapServerStatusOptions.ts';
+import { ImapServerStatusResult } from './ImapServerStatusResult.ts';
+import { ImapSmtpAccessDetails } from './ImapSmtpAccessDetails.ts';
+import { ImapSmtpAccessServers } from './ImapSmtpAccessServers.ts';
+import { ImapUpdateFlagsOptions } from './ImapUpdateFlagsOptions.ts';
+import { InboxByEmailAddressResult } from './InboxByEmailAddressResult.ts';
+import { InboxByNameResult } from './InboxByNameResult.ts';
+import { InboxDto          , InboxDtoInboxTypeEnum    , InboxDtoFunctionsAsEnum    , InboxDtoAccountRegionEnum   } from './InboxDto.ts';
+import { InboxExistsDto } from './InboxExistsDto.ts';
+import { InboxForwarderDto   , InboxForwarderDtoFieldEnum      } from './InboxForwarderDto.ts';
+import { InboxForwarderEventDto       , InboxForwarderEventDtoStatusEnum    } from './InboxForwarderEventDto.ts';
+import { InboxForwarderEventProjection        , InboxForwarderEventProjectionStatusEnum   } from './InboxForwarderEventProjection.ts';
+import { InboxForwarderTestOptions } from './InboxForwarderTestOptions.ts';
+import { InboxForwarderTestResult } from './InboxForwarderTestResult.ts';
+import { InboxIdItem } from './InboxIdItem.ts';
+import { InboxIdsResult } from './InboxIdsResult.ts';
+import { InboxPreview        , InboxPreviewInboxTypeEnum    , InboxPreviewFunctionsAsEnum    , InboxPreviewAccountRegionEnum   } from './InboxPreview.ts';
+import { InboxReplierDto   , InboxReplierDtoFieldEnum             } from './InboxReplierDto.ts';
+import { InboxReplierEventProjection         , InboxReplierEventProjectionStatusEnum   } from './InboxReplierEventProjection.ts';
+import { InboxRetentionPolicyDto } from './InboxRetentionPolicyDto.ts';
+import { InboxRetentionPolicyOptionalDto } from './InboxRetentionPolicyOptionalDto.ts';
+import { InboxRulesetTestResult } from './InboxRulesetTestResult.ts';
+import { InlineObject1 } from './InlineObject1.ts';
+import { InvokeTransformerOptions    , InvokeTransformerOptionsEntityTypeEnum     , InvokeTransformerOptionsContentSelectorEnum    } from './InvokeTransformerOptions.ts';
+import { JSONSchemaDto } from './JSONSchemaDto.ts';
+import { LinkIssue  , LinkIssueSeverityEnum    } from './LinkIssue.ts';
+import { ListUnsubscribeRecipientProjection } from './ListUnsubscribeRecipientProjection.ts';
+import { LookupBimiDomainOptions } from './LookupBimiDomainOptions.ts';
+import { LookupBimiDomainResults } from './LookupBimiDomainResults.ts';
+import { LookupDkimDomainOptions } from './LookupDkimDomainOptions.ts';
+import { LookupDkimDomainResults } from './LookupDkimDomainResults.ts';
+import { LookupDmarcDomainOptions } from './LookupDmarcDomainOptions.ts';
+import { LookupDmarcDomainResults } from './LookupDmarcDomainResults.ts';
+import { LookupMtaStsDomainOptions } from './LookupMtaStsDomainOptions.ts';
+import { LookupMtaStsDomainResults } from './LookupMtaStsDomainResults.ts';
+import { LookupMxRecordsOptions } from './LookupMxRecordsOptions.ts';
+import { LookupMxRecordsResults } from './LookupMxRecordsResults.ts';
+import { LookupPtrOptions } from './LookupPtrOptions.ts';
+import { LookupPtrResults } from './LookupPtrResults.ts';
+import { LookupSpfDomainOptions } from './LookupSpfDomainOptions.ts';
+import { LookupSpfDomainResults } from './LookupSpfDomainResults.ts';
+import { LookupTlsReportingDomainOptions } from './LookupTlsReportingDomainOptions.ts';
+import { LookupTlsReportingDomainResults } from './LookupTlsReportingDomainResults.ts';
+import { MatchOption, MatchOptionFieldEnum  , MatchOptionShouldEnum    } from './MatchOption.ts';
+import { MatchOptions } from './MatchOptions.ts';
+import { MissedEmailDto } from './MissedEmailDto.ts';
+import { MissedEmailProjection } from './MissedEmailProjection.ts';
+import { MissedSmsDto } from './MissedSmsDto.ts';
+import { MissedSmsProjection } from './MissedSmsProjection.ts';
+import { NameServerRecord } from './NameServerRecord.ts';
+import { NewFakeEmailAddressResult } from './NewFakeEmailAddressResult.ts';
+import { OptInConsentOptions } from './OptInConsentOptions.ts';
+import { OptInConsentSendResult } from './OptInConsentSendResult.ts';
+import { OptInIdentityProjection } from './OptInIdentityProjection.ts';
+import { OptInSendingConsentDto } from './OptInSendingConsentDto.ts';
+import { OptionalConnectorDto } from './OptionalConnectorDto.ts';
+import { OptionalConnectorImapConnectionDto } from './OptionalConnectorImapConnectionDto.ts';
+import { OptionalConnectorSmtpConnectionDto } from './OptionalConnectorSmtpConnectionDto.ts';
+import { OptionalConnectorSyncSettingsDto } from './OptionalConnectorSyncSettingsDto.ts';
+import { OrganizationInboxProjection        , OrganizationInboxProjectionInboxTypeEnum    , OrganizationInboxProjectionFunctionsAsEnum     , OrganizationInboxProjectionAccountRegionEnum   } from './OrganizationInboxProjection.ts';
+import { PageAITransformMappingProjection } from './PageAITransformMappingProjection.ts';
+import { PageAITransformProjection } from './PageAITransformProjection.ts';
+import { PageAITransformResultProjection } from './PageAITransformResultProjection.ts';
+import { PageAlias } from './PageAlias.ts';
+import { PageAliasThreadProjection } from './PageAliasThreadProjection.ts';
+import { PageAttachmentEntity } from './PageAttachmentEntity.ts';
+import { PageBouncedEmail } from './PageBouncedEmail.ts';
+import { PageBouncedRecipients } from './PageBouncedRecipients.ts';
+import { PageComplaint } from './PageComplaint.ts';
+import { PageConnector } from './PageConnector.ts';
+import { PageConnectorEvents } from './PageConnectorEvents.ts';
+import { PageContactProjection } from './PageContactProjection.ts';
+import { PageDeliveryStatus } from './PageDeliveryStatus.ts';
+import { PageDevicePreviewRunProjection } from './PageDevicePreviewRunProjection.ts';
+import { PageEmailPreview } from './PageEmailPreview.ts';
+import { PageEmailProjection } from './PageEmailProjection.ts';
+import { PageEmailThreadProjection } from './PageEmailThreadProjection.ts';
+import { PageEmailValidationRequest } from './PageEmailValidationRequest.ts';
+import { PageEntityAutomationItems } from './PageEntityAutomationItems.ts';
+import { PageEntityEventItems } from './PageEntityEventItems.ts';
+import { PageEntityFavouriteItems } from './PageEntityFavouriteItems.ts';
+import { PageExpiredInboxRecordProjection } from './PageExpiredInboxRecordProjection.ts';
+import { PageGroupProjection } from './PageGroupProjection.ts';
+import { PageGuestPortalUsers } from './PageGuestPortalUsers.ts';
+import { PageInboxForwarderDto } from './PageInboxForwarderDto.ts';
+import { PageInboxForwarderEvents } from './PageInboxForwarderEvents.ts';
+import { PageInboxProjection } from './PageInboxProjection.ts';
+import { PageInboxReplierDto } from './PageInboxReplierDto.ts';
+import { PageInboxReplierEvents } from './PageInboxReplierEvents.ts';
+import { PageInboxTags } from './PageInboxTags.ts';
+import { PageListUnsubscribeRecipients } from './PageListUnsubscribeRecipients.ts';
+import { PageMissedEmailProjection } from './PageMissedEmailProjection.ts';
+import { PageMissedSmsProjection } from './PageMissedSmsProjection.ts';
+import { PageOptInIdentityProjection } from './PageOptInIdentityProjection.ts';
+import { PageOrganizationInboxProjection } from './PageOrganizationInboxProjection.ts';
+import { PagePhoneMessageThreadItemProjection } from './PagePhoneMessageThreadItemProjection.ts';
+import { PagePhoneMessageThreadProjection } from './PagePhoneMessageThreadProjection.ts';
+import { PagePhoneNumberProjection } from './PagePhoneNumberProjection.ts';
+import { PagePhoneNumberReleaseProjection } from './PagePhoneNumberReleaseProjection.ts';
+import { PagePlusAddressProjection } from './PagePlusAddressProjection.ts';
+import { PageReputationItems } from './PageReputationItems.ts';
+import { PageRulesetDto } from './PageRulesetDto.ts';
+import { PageScheduledJobs } from './PageScheduledJobs.ts';
+import { PageSentEmailProjection } from './PageSentEmailProjection.ts';
+import { PageSentEmailWithQueueProjection } from './PageSentEmailWithQueueProjection.ts';
+import { PageSentSmsProjection } from './PageSentSmsProjection.ts';
+import { PageSmsProjection } from './PageSmsProjection.ts';
+import { PageTableData } from './PageTableData.ts';
+import { PageTemplateProjection } from './PageTemplateProjection.ts';
+import { PageTrackingPixelProjection } from './PageTrackingPixelProjection.ts';
+import { PageUnknownMissedEmailProjection } from './PageUnknownMissedEmailProjection.ts';
+import { PageWebhookEndpointProjection } from './PageWebhookEndpointProjection.ts';
+import { PageWebhookProjection } from './PageWebhookProjection.ts';
+import { PageWebhookResult } from './PageWebhookResult.ts';
+import { PageableObject } from './PageableObject.ts';
+import { Pagination } from './Pagination.ts';
+import { PhoneMessageThreadItemProjection    , PhoneMessageThreadItemProjectionMessageDirectionEnum     } from './PhoneMessageThreadItemProjection.ts';
+import { PhoneMessageThreadProjection   , PhoneMessageThreadProjectionLastMessageDirectionEnum     } from './PhoneMessageThreadProjection.ts';
+import { PhoneNumberDto       , PhoneNumberDtoPhoneCountryEnum      , PhoneNumberDtoPhoneVariantEnum        } from './PhoneNumberDto.ts';
+import { PhoneNumberLineTypeIntelligenceDto } from './PhoneNumberLineTypeIntelligenceDto.ts';
+import { PhoneNumberLineTypeLookupDto } from './PhoneNumberLineTypeLookupDto.ts';
+import { PhoneNumberProjection   , PhoneNumberProjectionPhoneCountryEnum          } from './PhoneNumberProjection.ts';
+import { PhoneNumberReleaseProjection   , PhoneNumberReleaseProjectionPhoneCountryEnum    , PhoneNumberReleaseProjectionSubscriptionScheduleEnum  , PhoneNumberReleaseProjectionPlanCurrencyEnum   } from './PhoneNumberReleaseProjection.ts';
+import { PhoneNumberValidationDto } from './PhoneNumberValidationDto.ts';
+import { PhonePlanAvailability , PhonePlanAvailabilityDisabledPhoneCountriesEnum   } from './PhonePlanAvailability.ts';
+import { PhonePlanAvailabilityItem, PhonePlanAvailabilityItemPhoneCountryEnum  , PhonePlanAvailabilityItemAvailabilityStatusEnum  , PhonePlanAvailabilityItemVariantsEnum   } from './PhonePlanAvailabilityItem.ts';
+import { PhonePlanDto  , PhonePlanDtoPhoneCountryEnum    } from './PhonePlanDto.ts';
+import { PhonePoolDetailDto } from './PhonePoolDetailDto.ts';
+import { PhonePoolDto } from './PhonePoolDto.ts';
+import { PhonePoolLeaseDto    , PhonePoolLeaseDtoPhoneCountryEnum        } from './PhonePoolLeaseDto.ts';
+import { PhonePoolMemberDto    , PhonePoolMemberDtoPhoneCountryEnum      } from './PhonePoolMemberDto.ts';
+import { PhoneProviderCapabilitiesResult , PhoneProviderCapabilitiesResultPhoneCountryEnum     } from './PhoneProviderCapabilitiesResult.ts';
+import { PhoneProvisioningJobDto  , PhoneProvisioningJobDtoPhoneCountryEnum  , PhoneProvisioningJobDtoPhoneVariantEnum  , PhoneProvisioningJobDtoStatusEnum           } from './PhoneProvisioningJobDto.ts';
+import { PhoneProvisioningJobItemDto   , PhoneProvisioningJobItemDtoStatusEnum         } from './PhoneProvisioningJobItemDto.ts';
+import { PhoneSmsPrepaidCreditDto , PhoneSmsPrepaidCreditDtoPhoneCountryEnum         } from './PhoneSmsPrepaidCreditDto.ts';
+import { PhoneSmsPrepaidCreditsDto } from './PhoneSmsPrepaidCreditsDto.ts';
+import { PhoneSummaryCountryDto, PhoneSummaryCountryDtoPhoneCountryCodeEnum     } from './PhoneSummaryCountryDto.ts';
+import { PhoneSummaryDto } from './PhoneSummaryDto.ts';
+import { PlanSummaryDto, PlanSummaryDtoSubscriptionScheduleEnum  , PlanSummaryDtoPhoneCountryEnum   } from './PlanSummaryDto.ts';
+import { PlusAddressDto } from './PlusAddressDto.ts';
+import { PlusAddressProjection } from './PlusAddressProjection.ts';
+import { ProviderSettings, ProviderSettingsMailProviderEnum           } from './ProviderSettings.ts';
+import { RawEmailJson } from './RawEmailJson.ts';
+import { Recipient } from './Recipient.ts';
+import { RecipientProjection } from './RecipientProjection.ts';
+import { ReplyForSms } from './ReplyForSms.ts';
+import { ReplyToAliasEmailOptions      , ReplyToAliasEmailOptionsSendStrategyEnum      } from './ReplyToAliasEmailOptions.ts';
+import { ReplyToEmailOptions         , ReplyToEmailOptionsSendStrategyEnum     } from './ReplyToEmailOptions.ts';
+import { ReputationItemProjection , ReputationItemProjectionSeverityEnum    , ReputationItemProjectionReputationTypeEnum    } from './ReputationItemProjection.ts';
+import { RulesetDto   , RulesetDtoScopeEnum  , RulesetDtoActionEnum   , RulesetDtoHandlerEnum    } from './RulesetDto.ts';
+import { RulesetTestOptions } from './RulesetTestOptions.ts';
+import { ScheduledJob      , ScheduledJobStatusEnum      } from './ScheduledJob.ts';
+import { ScheduledJobDto      , ScheduledJobDtoStatusEnum      } from './ScheduledJobDto.ts';
+import { SearchAvailablePhoneNumbersOptions, SearchAvailablePhoneNumbersOptionsPhoneCountryEnum  , SearchAvailablePhoneNumbersOptionsPhoneVariantEnum  , SearchAvailablePhoneNumbersOptionsQualityFilterEnum         } from './SearchAvailablePhoneNumbersOptions.ts';
+import { SearchEmailsOptions   , SearchEmailsOptionsSortDirectionEnum       } from './SearchEmailsOptions.ts';
+import { SearchInboxesOptions  , SearchInboxesOptionsSortDirectionEnum       , SearchInboxesOptionsInboxTypeEnum  , SearchInboxesOptionsInboxFunctionEnum    } from './SearchInboxesOptions.ts';
+import { SendEmailBodyPart } from './SendEmailBodyPart.ts';
+import { SendEmailOptions                 , SendEmailOptionsSendStrategyEnum     , SendEmailOptionsValidateEmailAddressesEnum      } from './SendEmailOptions.ts';
+import { SendOptInConsentEmailOptions } from './SendOptInConsentEmailOptions.ts';
+import { SendSMTPEnvelopeOptions } from './SendSMTPEnvelopeOptions.ts';
+import { SendWithQueueResult } from './SendWithQueueResult.ts';
+import { Sender } from './Sender.ts';
+import { SenderProjection } from './SenderProjection.ts';
+import { SentEmailDto } from './SentEmailDto.ts';
+import { SentEmailProjection } from './SentEmailProjection.ts';
+import { SentSmsDto } from './SentSmsDto.ts';
+import { SentSmsProjection } from './SentSmsProjection.ts';
+import { ServerEndpoints } from './ServerEndpoints.ts';
+import { SetInboxFavouritedOptions } from './SetInboxFavouritedOptions.ts';
+import { SetPhoneFavouritedOptions } from './SetPhoneFavouritedOptions.ts';
+import { SimpleSendEmailOptions } from './SimpleSendEmailOptions.ts';
+import { SmsDto } from './SmsDto.ts';
+import { SmsMatchOption, SmsMatchOptionFieldEnum  , SmsMatchOptionShouldEnum    } from './SmsMatchOption.ts';
+import { SmsPreview } from './SmsPreview.ts';
+import { SmsProjection } from './SmsProjection.ts';
+import { SmsReplyOptions } from './SmsReplyOptions.ts';
+import { SmsSendOptions } from './SmsSendOptions.ts';
+import { SmtpAccessDetails } from './SmtpAccessDetails.ts';
+import { SmtpAuthDiagnosticResult } from './SmtpAuthDiagnosticResult.ts';
+import { SmtpDiagnosticStep } from './SmtpDiagnosticStep.ts';
+import { SmtpTlsDiagnosticResult } from './SmtpTlsDiagnosticResult.ts';
+import { SortObject } from './SortObject.ts';
+import { SpellingIssue  , SpellingIssueSeverityEnum    } from './SpellingIssue.ts';
+import { SpfMechanismResult } from './SpfMechanismResult.ts';
+import { StructuredContentResultDto } from './StructuredContentResultDto.ts';
+import { StructuredOutputSchema                     , StructuredOutputSchemaTypeEnum   } from './StructuredOutputSchema.ts';
+import { StructuredOutputSchemaValidation } from './StructuredOutputSchemaValidation.ts';
+import { TemplateDto } from './TemplateDto.ts';
+import { TemplatePreview } from './TemplatePreview.ts';
+import { TemplateProjection } from './TemplateProjection.ts';
+import { TemplateVariable , TemplateVariableVariableTypeEnum   } from './TemplateVariable.ts';
+import { TenantReputationFindingDto, TenantReputationFindingDtoAccountRegionEnum           } from './TenantReputationFindingDto.ts';
+import { TenantReputationFindingsDto } from './TenantReputationFindingsDto.ts';
+import { TenantReputationStatusRowDto, TenantReputationStatusRowDtoAccountRegionEnum                } from './TenantReputationStatusRowDto.ts';
+import { TenantReputationStatusSummaryDto } from './TenantReputationStatusSummaryDto.ts';
+import { TestInboxRulesetSendingOptions } from './TestInboxRulesetSendingOptions.ts';
+import { TestNewInboxForwarderOptions } from './TestNewInboxForwarderOptions.ts';
+import { TestNewInboxRulesetOptions } from './TestNewInboxRulesetOptions.ts';
+import { TestPhoneNumberOptions } from './TestPhoneNumberOptions.ts';
+import { TestRulesetReceivingOptions } from './TestRulesetReceivingOptions.ts';
+import { TestRulesetReceivingResult } from './TestRulesetReceivingResult.ts';
+import { TestRulesetSendingResult } from './TestRulesetSendingResult.ts';
+import { TestSmtpServerOptions } from './TestSmtpServerOptions.ts';
+import { TestSmtpServerResults } from './TestSmtpServerResults.ts';
+import { TotpDeviceCodeDto } from './TotpDeviceCodeDto.ts';
+import { TotpDeviceDto } from './TotpDeviceDto.ts';
+import { TotpDeviceOptionalDto } from './TotpDeviceOptionalDto.ts';
+import { TrackingPixelDto } from './TrackingPixelDto.ts';
+import { TrackingPixelProjection } from './TrackingPixelProjection.ts';
+import { UnknownMissedEmailProjection } from './UnknownMissedEmailProjection.ts';
+import { UnreadCount } from './UnreadCount.ts';
+import { UnseenErrorCountDto } from './UnseenErrorCountDto.ts';
+import { UpdateAliasOptions } from './UpdateAliasOptions.ts';
+import { UpdateCampaignProbeOptions } from './UpdateCampaignProbeOptions.ts';
+import { UpdateDeliverabilityTestOptions } from './UpdateDeliverabilityTestOptions.ts';
+import { UpdateDevicePreviewFeedbackOptions, UpdateDevicePreviewFeedbackOptionsStatusEnum           } from './UpdateDevicePreviewFeedbackOptions.ts';
+import { UpdateDomainMonitorOptions } from './UpdateDomainMonitorOptions.ts';
+import { UpdateDomainOptions } from './UpdateDomainOptions.ts';
+import { UpdateGroupContacts } from './UpdateGroupContacts.ts';
+import { UpdateImapAccessOptions } from './UpdateImapAccessOptions.ts';
+import { UpdateInboxOptions } from './UpdateInboxOptions.ts';
+import { UpdateInboxReplierOptions  , UpdateInboxReplierOptionsFieldEnum             } from './UpdateInboxReplierOptions.ts';
+import { UpdatePhoneNumberOptions } from './UpdatePhoneNumberOptions.ts';
+import { UpdatePhonePoolOptions } from './UpdatePhonePoolOptions.ts';
+import { UpdateSmtpAccessOptions } from './UpdateSmtpAccessOptions.ts';
+import { UploadAttachmentOptions } from './UploadAttachmentOptions.ts';
+import { UserInfoDto  , UserInfoDtoAccountStateEnum  , UserInfoDtoSubscriptionTypeEnum  , UserInfoDtoAccountTypeEnum    } from './UserInfoDto.ts';
+import { ValidateEmailAddressListOptions } from './ValidateEmailAddressListOptions.ts';
+import { ValidateEmailAddressListResult } from './ValidateEmailAddressListResult.ts';
+import { ValidatePhoneNumberOptions } from './ValidatePhoneNumberOptions.ts';
+import { ValidationDto } from './ValidationDto.ts';
+import { ValidationMessage } from './ValidationMessage.ts';
+import { VerifyEmailAddressOptions } from './VerifyEmailAddressOptions.ts';
+import { VerifyWebhookSignatureOptions } from './VerifyWebhookSignatureOptions.ts';
+import { VerifyWebhookSignatureResults } from './VerifyWebhookSignatureResults.ts';
+import { WaitForConditions     , WaitForConditionsCountTypeEnum   , WaitForConditionsSortDirectionEnum     } from './WaitForConditions.ts';
+import { WaitForSingleSmsOptions     , WaitForSingleSmsOptionsSortDirectionEnum    } from './WaitForSingleSmsOptions.ts';
+import { WaitForSmsConditions      , WaitForSmsConditionsCountTypeEnum   , WaitForSmsConditionsSortDirectionEnum     } from './WaitForSmsConditions.ts';
+import { WebhookBouncePayload  , WebhookBouncePayloadEventNameEnum        } from './WebhookBouncePayload.ts';
+import { WebhookBounceRecipientPayload  , WebhookBounceRecipientPayloadEventNameEnum     } from './WebhookBounceRecipientPayload.ts';
+import { WebhookDeliveryStatusPayload  , WebhookDeliveryStatusPayloadEventNameEnum                } from './WebhookDeliveryStatusPayload.ts';
+import { WebhookDto        , WebhookDtoMethodEnum     , WebhookDtoEventNameEnum      , WebhookDtoHealthStatusEnum   } from './WebhookDto.ts';
+import { WebhookEmailOpenedPayload  , WebhookEmailOpenedPayloadEventNameEnum         } from './WebhookEmailOpenedPayload.ts';
+import { WebhookEmailReadPayload  , WebhookEmailReadPayloadEventNameEnum        } from './WebhookEmailReadPayload.ts';
+import { WebhookEndpointProjection , WebhookEndpointProjectionHealthEnum   } from './WebhookEndpointProjection.ts';
+import { WebhookHeaderNameValue } from './WebhookHeaderNameValue.ts';
+import { WebhookHeaders } from './WebhookHeaders.ts';
+import { WebhookNewAITransformResultPayload  , WebhookNewAITransformResultPayloadEventNameEnum        , WebhookNewAITransformResultPayloadEntityTypeEnum    } from './WebhookNewAITransformResultPayload.ts';
+import { WebhookNewAttachmentPayload   , WebhookNewAttachmentPayloadEventNameEnum       } from './WebhookNewAttachmentPayload.ts';
+import { WebhookNewContactPayload   , WebhookNewContactPayloadEventNameEnum              } from './WebhookNewContactPayload.ts';
+import { WebhookNewEmailPayload  , WebhookNewEmailPayloadEventNameEnum              } from './WebhookNewEmailPayload.ts';
+import { WebhookNewSmsPayload  , WebhookNewSmsPayloadEventNameEnum           } from './WebhookNewSmsPayload.ts';
+import { WebhookProjection       , WebhookProjectionEventNameEnum    , WebhookProjectionHealthStatusEnum      } from './WebhookProjection.ts';
+import { WebhookRedriveAllResult } from './WebhookRedriveAllResult.ts';
+import { WebhookRedriveResult } from './WebhookRedriveResult.ts';
+import { WebhookResultDto      , WebhookResultDtoHttpMethodEnum  , WebhookResultDtoWebhookEventEnum     , WebhookResultDtoResultTypeEnum            } from './WebhookResultDto.ts';
+import { WebhookTestRequest , WebhookTestRequestMethodEnum     } from './WebhookTestRequest.ts';
+import { WebhookTestResponse } from './WebhookTestResponse.ts';
+import { WebhookTestResult } from './WebhookTestResult.ts';
+
+/* tslint:disable:no-unused-variable */
+let primitives = [
+                    "string",
+                    "boolean",
+                    "double",
+                    "integer",
+                    "long",
+                    "float",
+                    "number",
+                    "any"
+                 ];
+
+const supportedMediaTypes: { [mediaType: string]: number } = {
+  "application/json": Infinity,
+  "application/octet-stream": 0
+}
+
+                 
+let enumsMap: Set<string> = new Set<string>([
+    "AIMappingMatchOptionFieldEnum",
+    "AIMappingMatchOptionShouldEnum",
+    "AITransformMappingDtoEntityTypeEnum",
+    "AITransformMappingProjectionEntityTypeEnum",
+    "AITransformMappingProjectionContentSelectorEnum",
+    "AITransformMappingProjectionTriggerSelectorEnum",
+    "AITransformResultDtoEntityTypeEnum",
+    "AITransformResultProjectionDtoEntityTypeEnum",
+    "AbstractWebhookPayloadEventNameEnum",
+    "AvailablePhoneNumberDtoPhoneCountryEnum",
+    "AvailablePhoneNumberDtoPhoneVariantEnum",
+    "CampaignProbeDtoLastRunStatusEnum",
+    "CampaignProbeRunDtoStatusEnum",
+    "CampaignProbeRunDtoSourceEnum",
+    "CampaignProbeRunDueResultTriggerSourceEnum",
+    "CampaignProbeSeriesDtoBucketEnum",
+    "CheckCampaignProbeResultsStatusEnum",
+    "CheckDnsPropagationOptionsRecordTypeEnum",
+    "CheckDnsPropagationResultsRecordTypeEnum",
+    "CheckDomainMonitorResultsStatusEnum",
+    "CheckEmailAuthStackResultsStatusEnum",
+    "CheckEmailBlacklistResultsStatusEnum",
+    "CodeCandidateMethodEnum",
+    "ConditionOptionConditionEnum",
+    "ConditionOptionValueEnum",
+    "ConnectorEventDtoStatusEnum",
+    "ConnectorEventDtoEventTypeEnum",
+    "ConnectorEventProjectionEventTypeEnum",
+    "ConnectorEventProjectionStatusEnum",
+    "ConnectorSyncSettingsDtoSyncScheduleTypeEnum",
+    "CreateAITransformerMappingOptionsEntityTypeEnum",
+    "CreateAITransformerMappingOptionsContentSelectorEnum",
+    "CreateAITransformerMappingOptionsTriggerSelectorEnum",
+    "CreateConnectorSyncSettingsOptionsSyncScheduleTypeEnum",
+    "CreateDeliverabilityTestOptionsScopeEnum",
+    "CreateDevicePreviewFeedbackOptionsSourceEnum",
+    "CreateDevicePreviewFeedbackOptionsCategoryEnum",
+    "CreateDevicePreviewFeedbackOptionsStatusEnum",
+    "CreateDevicePreviewFeedbackOptionsProviderEnum",
+    "CreateDevicePreviewOptionsProvidersEnum",
+    "CreateDomainMonitorAlertSinkOptionsTypeEnum",
+    "CreateDomainMonitorAlertSinkOptionsSeverityThresholdEnum",
+    "CreateDomainOptionsDomainTypeEnum",
+    "CreateEmergencyAddressOptionsIsoCountryCodeEnum",
+    "CreateInboxDtoInboxTypeEnum",
+    "CreateInboxForwarderOptionsFieldEnum",
+    "CreateInboxReplierOptionsFieldEnum",
+    "CreatePhoneNumberOptionsPhoneCountryEnum",
+    "CreatePhoneNumberOptionsScheduleEnum",
+    "CreatePhoneNumberOptionsPhoneNumberVariantEnum",
+    "CreatePhoneNumberOptionsPhoneProviderEnum",
+    "CreatePhoneProvisioningJobOptionsPhoneCountryEnum",
+    "CreatePhoneProvisioningJobOptionsPhoneVariantEnum",
+    "CreateRulesetOptionsScopeEnum",
+    "CreateRulesetOptionsActionEnum",
+    "CreateWebhookOptionsEventNameEnum",
+    "DNSLookupOptionsRecordTypesEnum",
+    "DNSLookupResultRecordTypeEnum",
+    "DeleteResultStatusEnum",
+    "DeliverabilityAnalyticsRunDtoScopeEnum",
+    "DeliverabilityAnalyticsRunDtoStatusEnum",
+    "DeliverabilityAnalyticsRunDtoThresholdStatusEnum",
+    "DeliverabilityAnalyticsSeriesDtoScopeEnum",
+    "DeliverabilityAnalyticsSeriesDtoBucketEnum",
+    "DeliverabilityEntityResultDtoPhoneCountryEnum",
+    "DeliverabilityEntityResultDtoPhoneVariantEnum",
+    "DeliverabilityFailureEntityHotspotDtoScopeEnum",
+    "DeliverabilityFailureEntityHotspotDtoPhoneCountryEnum",
+    "DeliverabilityFailureEntityHotspotDtoPhoneVariantEnum",
+    "DeliverabilityFailureHotspotsDtoScopeEnum",
+    "DeliverabilityFailurePhoneDimensionHotspotDtoPhoneCountryEnum",
+    "DeliverabilityFailurePhoneDimensionHotspotDtoPhoneVariantEnum",
+    "DeliverabilitySelectorOptionsTypeEnum",
+    "DeliverabilitySelectorOptionsPhoneCountryEnum",
+    "DeliverabilitySimulationJobDtoScopeEnum",
+    "DeliverabilitySimulationJobDtoStatusEnum",
+    "DeliverabilitySimulationJobEventDtoEventTypeEnum",
+    "DeliverabilityTestDtoScopeEnum",
+    "DeliverabilityTestDtoStatusEnum",
+    "DeliverabilityTestDtoThresholdStatusEnum",
+    "DevicePreviewFeedbackDtoSourceEnum",
+    "DevicePreviewFeedbackDtoCategoryEnum",
+    "DevicePreviewFeedbackDtoStatusEnum",
+    "DevicePreviewFeedbackDtoProviderEnum",
+    "DevicePreviewProviderProgressDtoProviderEnum",
+    "DevicePreviewProviderProgressDtoStatusEnum",
+    "DevicePreviewRunDtoStatusEnum",
+    "DevicePreviewRunDtoRequestedProvidersEnum",
+    "DevicePreviewRunDtoImportedProvidersEnum",
+    "DevicePreviewTargetDtoStatusEnum",
+    "DomainDtoDomainTypeEnum",
+    "DomainGroupLabelEnum",
+    "DomainInformationDomainTypeEnum",
+    "DomainMonitorAlertSinkDtoTypeEnum",
+    "DomainMonitorAlertSinkDtoSeverityThresholdEnum",
+    "DomainMonitorDtoLastStatusEnum",
+    "DomainMonitorRunDtoStatusEnum",
+    "DomainMonitorRunDtoTriggerSourceEnum",
+    "DomainMonitorRunDueResultTriggerSourceEnum",
+    "DomainMonitorSeriesDtoBucketEnum",
+    "DomainNameRecordLabelEnum",
+    "DomainNameRecordRecordTypeEnum",
+    "DomainPreviewDomainTypeEnum",
+    "DomainRegionGroupLabelEnum",
+    "DomainRegionInformationDomainTypeEnum",
+    "DomainRegionInformationAccountRegionEnum",
+    "EmailAuditAnalysisResultStatusEnum",
+    "EmailAuditSpellingIssueSeverityEnum",
+    "EmailFeatureCategoryNameSlugEnum",
+    "EmailFeatureFamilyNameSlugEnum",
+    "EmailFeatureFamilyStatisticsFeatureEnum",
+    "EmailFeatureFamilyStatisticsFamilyEnum",
+    "EmailFeatureOverviewFeatureEnum",
+    "EmailFeatureOverviewCategoryEnum",
+    "EmailFeatureOverviewStatusesEnum",
+    "EmailFeaturePlatformNameSlugEnum",
+    "EmailFeaturePlatformStatisticsPlatformEnum",
+    "EmailFeatureSupportFlagsStatusEnum",
+    "EmailFeatureSupportResultDetectedFeaturesEnum",
+    "EmailFeatureSupportStatusPercentageStatusEnum",
+    "EmailThreadItemItemTypeEnum",
+    "EmergencyAddressPhoneCountryEnum",
+    "EmergencyAddressDtoPhoneCountryEnum",
+    "EntityAutomationItemProjectionAutomationTypeEnum",
+    "EntityEventItemProjectionSeverityEnum",
+    "EntityEventItemProjectionEventTypeEnum",
+    "EntityFavouriteItemProjectionEntityTypeEnum",
+    "ExportOptionsOutputFormatEnum",
+    "ExportTransformerOptionsFormatEnum",
+    "ExportTransformerResponseStatusEnum",
+    "ExportTransformerResultJobDtoStatusEnum",
+    "ExportTransformerResultJobDtoFormatEnum",
+    "ExtractAttachmentTextOptionsMethodEnum",
+    "ExtractAttachmentTextResultMethodUsedEnum",
+    "ExtractCodesOptionsMethodEnum",
+    "ExtractCodesResultMethodUsedEnum",
+    "GenerateBimiRecordOptionsVersionEnum",
+    "GenerateBimiRecordResultsTypeEnum",
+    "GenerateDmarcRecordOptionsVersionEnum",
+    "GenerateDmarcRecordOptionsPolicyEnum",
+    "GenerateDmarcRecordOptionsSubdomainPolicyEnum",
+    "GenerateDmarcRecordOptionsReportFormatEnum",
+    "GenerateDmarcRecordOptionsAdkimEnum",
+    "GenerateDmarcRecordOptionsAspfEnum",
+    "GenerateDmarcRecordOptionsFoEnum",
+    "GenerateDmarcRecordResultsTypeEnum",
+    "GenerateMtaStsRecordOptionsVersionEnum",
+    "GenerateMtaStsRecordOptionsModeEnum",
+    "GenerateMtaStsRecordResultsTypeEnum",
+    "GenerateSpfRecordOptionsAllPolicyEnum",
+    "GenerateSpfRecordResultsTypeEnum",
+    "GenerateStructuredContentEmailOptionsContentSelectorEnum",
+    "GenerateTlsReportingRecordOptionsVersionEnum",
+    "GenerateTlsReportingRecordResultsTypeEnum",
+    "ImageIssueSeverityEnum",
+    "ImapFlagOperationOptionsFlagOperationEnum",
+    "ImapServerStatusOptionsStatusItemsEnum",
+    "InboxDtoInboxTypeEnum",
+    "InboxDtoFunctionsAsEnum",
+    "InboxDtoAccountRegionEnum",
+    "InboxForwarderDtoFieldEnum",
+    "InboxForwarderEventDtoStatusEnum",
+    "InboxForwarderEventProjectionStatusEnum",
+    "InboxPreviewInboxTypeEnum",
+    "InboxPreviewFunctionsAsEnum",
+    "InboxPreviewAccountRegionEnum",
+    "InboxReplierDtoFieldEnum",
+    "InboxReplierEventProjectionStatusEnum",
+    "InvokeTransformerOptionsEntityTypeEnum",
+    "InvokeTransformerOptionsContentSelectorEnum",
+    "LinkIssueSeverityEnum",
+    "MatchOptionFieldEnum",
+    "MatchOptionShouldEnum",
+    "OrganizationInboxProjectionInboxTypeEnum",
+    "OrganizationInboxProjectionFunctionsAsEnum",
+    "OrganizationInboxProjectionAccountRegionEnum",
+    "PhoneMessageThreadItemProjectionMessageDirectionEnum",
+    "PhoneMessageThreadProjectionLastMessageDirectionEnum",
+    "PhoneNumberDtoPhoneCountryEnum",
+    "PhoneNumberDtoPhoneVariantEnum",
+    "PhoneNumberProjectionPhoneCountryEnum",
+    "PhoneNumberReleaseProjectionPhoneCountryEnum",
+    "PhoneNumberReleaseProjectionSubscriptionScheduleEnum",
+    "PhoneNumberReleaseProjectionPlanCurrencyEnum",
+    "PhonePlanAvailabilityDisabledPhoneCountriesEnum",
+    "PhonePlanAvailabilityItemPhoneCountryEnum",
+    "PhonePlanAvailabilityItemAvailabilityStatusEnum",
+    "PhonePlanAvailabilityItemVariantsEnum",
+    "PhonePlanDtoPhoneCountryEnum",
+    "PhonePoolLeaseDtoPhoneCountryEnum",
+    "PhonePoolMemberDtoPhoneCountryEnum",
+    "PhoneProviderCapabilitiesResultPhoneCountryEnum",
+    "PhoneProvisioningJobDtoPhoneCountryEnum",
+    "PhoneProvisioningJobDtoPhoneVariantEnum",
+    "PhoneProvisioningJobDtoStatusEnum",
+    "PhoneProvisioningJobItemDtoStatusEnum",
+    "PhoneSmsPrepaidCreditDtoPhoneCountryEnum",
+    "PhoneSummaryCountryDtoPhoneCountryCodeEnum",
+    "PlanSummaryDtoSubscriptionScheduleEnum",
+    "PlanSummaryDtoPhoneCountryEnum",
+    "ProviderSettingsMailProviderEnum",
+    "ReplyToAliasEmailOptionsSendStrategyEnum",
+    "ReplyToEmailOptionsSendStrategyEnum",
+    "ReputationItemProjectionSeverityEnum",
+    "ReputationItemProjectionReputationTypeEnum",
+    "RulesetDtoScopeEnum",
+    "RulesetDtoActionEnum",
+    "RulesetDtoHandlerEnum",
+    "ScheduledJobStatusEnum",
+    "ScheduledJobDtoStatusEnum",
+    "SearchAvailablePhoneNumbersOptionsPhoneCountryEnum",
+    "SearchAvailablePhoneNumbersOptionsPhoneVariantEnum",
+    "SearchAvailablePhoneNumbersOptionsQualityFilterEnum",
+    "SearchEmailsOptionsSortDirectionEnum",
+    "SearchInboxesOptionsSortDirectionEnum",
+    "SearchInboxesOptionsInboxTypeEnum",
+    "SearchInboxesOptionsInboxFunctionEnum",
+    "SendEmailOptionsSendStrategyEnum",
+    "SendEmailOptionsValidateEmailAddressesEnum",
+    "SmsMatchOptionFieldEnum",
+    "SmsMatchOptionShouldEnum",
+    "SpellingIssueSeverityEnum",
+    "StructuredOutputSchemaTypeEnum",
+    "TemplateVariableVariableTypeEnum",
+    "TenantReputationFindingDtoAccountRegionEnum",
+    "TenantReputationStatusRowDtoAccountRegionEnum",
+    "UpdateDevicePreviewFeedbackOptionsStatusEnum",
+    "UpdateInboxReplierOptionsFieldEnum",
+    "UserInfoDtoAccountStateEnum",
+    "UserInfoDtoSubscriptionTypeEnum",
+    "UserInfoDtoAccountTypeEnum",
+    "WaitForConditionsCountTypeEnum",
+    "WaitForConditionsSortDirectionEnum",
+    "WaitForSingleSmsOptionsSortDirectionEnum",
+    "WaitForSmsConditionsCountTypeEnum",
+    "WaitForSmsConditionsSortDirectionEnum",
+    "WebhookBouncePayloadEventNameEnum",
+    "WebhookBounceRecipientPayloadEventNameEnum",
+    "WebhookDeliveryStatusPayloadEventNameEnum",
+    "WebhookDtoMethodEnum",
+    "WebhookDtoEventNameEnum",
+    "WebhookDtoHealthStatusEnum",
+    "WebhookEmailOpenedPayloadEventNameEnum",
+    "WebhookEmailReadPayloadEventNameEnum",
+    "WebhookEndpointProjectionHealthEnum",
+    "WebhookNewAITransformResultPayloadEventNameEnum",
+    "WebhookNewAITransformResultPayloadEntityTypeEnum",
+    "WebhookNewAttachmentPayloadEventNameEnum",
+    "WebhookNewContactPayloadEventNameEnum",
+    "WebhookNewEmailPayloadEventNameEnum",
+    "WebhookNewSmsPayloadEventNameEnum",
+    "WebhookProjectionEventNameEnum",
+    "WebhookProjectionHealthStatusEnum",
+    "WebhookResultDtoHttpMethodEnum",
+    "WebhookResultDtoWebhookEventEnum",
+    "WebhookResultDtoResultTypeEnum",
+    "WebhookTestRequestMethodEnum",
+]);
+
+let typeMap: {[index: string]: any} = {
+    "AIMappingMatchOption": AIMappingMatchOption,
+    "AIMappingMatchOptions": AIMappingMatchOptions,
+    "AITransformCreateOptions": AITransformCreateOptions,
+    "AITransformDto": AITransformDto,
+    "AITransformMappingDto": AITransformMappingDto,
+    "AITransformMappingMatchResult": AITransformMappingMatchResult,
+    "AITransformMappingProjection": AITransformMappingProjection,
+    "AITransformProjection": AITransformProjection,
+    "AITransformResultDto": AITransformResultDto,
+    "AITransformResultProjectionDto": AITransformResultProjectionDto,
+    "AbstractWebhookPayload": AbstractWebhookPayload,
+    "AccountBounceBlockDto": AccountBounceBlockDto,
+    "AcquirePhonePoolLeaseOptions": AcquirePhonePoolLeaseOptions,
+    "AddPhonePoolNumbersOptions": AddPhonePoolNumbersOptions,
+    "AliasDto": AliasDto,
+    "AliasProjection": AliasProjection,
+    "AliasThreadProjection": AliasThreadProjection,
+    "AnalyzeDmarcReportOptions": AnalyzeDmarcReportOptions,
+    "AnalyzeDmarcReportResults": AnalyzeDmarcReportResults,
+    "AnalyzeEmailHeadersOptions": AnalyzeEmailHeadersOptions,
+    "AnalyzeEmailHeadersResults": AnalyzeEmailHeadersResults,
+    "AttachmentEntityDto": AttachmentEntityDto,
+    "AttachmentMetaData": AttachmentMetaData,
+    "AttachmentProjection": AttachmentProjection,
+    "AuditLogEventDto": AuditLogEventDto,
+    "AuditLogPageDto": AuditLogPageDto,
+    "AuditLogSearchOptions": AuditLogSearchOptions,
+    "AvailablePhoneNumberDto": AvailablePhoneNumberDto,
+    "AvailablePhoneNumbersResult": AvailablePhoneNumbersResult,
+    "BasicAuthOptions": BasicAuthOptions,
+    "BounceProjection": BounceProjection,
+    "BounceRecipientProjection": BounceRecipientProjection,
+    "BouncedEmailDto": BouncedEmailDto,
+    "BouncedRecipientDto": BouncedRecipientDto,
+    "BulkSendEmailOptions": BulkSendEmailOptions,
+    "CampaignProbeDto": CampaignProbeDto,
+    "CampaignProbeInsightsDto": CampaignProbeInsightsDto,
+    "CampaignProbeRunComparisonDto": CampaignProbeRunComparisonDto,
+    "CampaignProbeRunDto": CampaignProbeRunDto,
+    "CampaignProbeRunDueResult": CampaignProbeRunDueResult,
+    "CampaignProbeRunNowResult": CampaignProbeRunNowResult,
+    "CampaignProbeSeriesDto": CampaignProbeSeriesDto,
+    "CampaignProbeSeriesPointDto": CampaignProbeSeriesPointDto,
+    "CanSendEmailResults": CanSendEmailResults,
+    "CancelDevicePreviewRunOptions": CancelDevicePreviewRunOptions,
+    "CancelDevicePreviewRunResult": CancelDevicePreviewRunResult,
+    "CheckCampaignProbeOptions": CheckCampaignProbeOptions,
+    "CheckCampaignProbeResults": CheckCampaignProbeResults,
+    "CheckDnsPropagationOptions": CheckDnsPropagationOptions,
+    "CheckDnsPropagationResults": CheckDnsPropagationResults,
+    "CheckDomainMonitorOptions": CheckDomainMonitorOptions,
+    "CheckDomainMonitorResults": CheckDomainMonitorResults,
+    "CheckEmailAuditOptions": CheckEmailAuditOptions,
+    "CheckEmailAuthStackOptions": CheckEmailAuthStackOptions,
+    "CheckEmailAuthStackResults": CheckEmailAuthStackResults,
+    "CheckEmailBlacklistOptions": CheckEmailBlacklistOptions,
+    "CheckEmailBlacklistResults": CheckEmailBlacklistResults,
+    "CheckEmailBodyFeatureSupportResults": CheckEmailBodyFeatureSupportResults,
+    "CheckEmailBodyResults": CheckEmailBodyResults,
+    "CheckEmailClientSupportOptions": CheckEmailClientSupportOptions,
+    "CheckEmailClientSupportResults": CheckEmailClientSupportResults,
+    "CheckEmailFeaturesClientSupportOptions": CheckEmailFeaturesClientSupportOptions,
+    "CheckEmailFeaturesClientSupportResults": CheckEmailFeaturesClientSupportResults,
+    "CodeCandidate": CodeCandidate,
+    "Complaint": Complaint,
+    "ConditionOption": ConditionOption,
+    "ConditionalStructuredContentResult": ConditionalStructuredContentResult,
+    "ConnectorDto": ConnectorDto,
+    "ConnectorEventDto": ConnectorEventDto,
+    "ConnectorEventProjection": ConnectorEventProjection,
+    "ConnectorImapConnectionDto": ConnectorImapConnectionDto,
+    "ConnectorImapConnectionTestResult": ConnectorImapConnectionTestResult,
+    "ConnectorProjection": ConnectorProjection,
+    "ConnectorProviderSettingsDto": ConnectorProviderSettingsDto,
+    "ConnectorSmtpConnectionDto": ConnectorSmtpConnectionDto,
+    "ConnectorSmtpConnectionTestResult": ConnectorSmtpConnectionTestResult,
+    "ConnectorSyncRequestResult": ConnectorSyncRequestResult,
+    "ConnectorSyncResult": ConnectorSyncResult,
+    "ConnectorSyncSettingsDto": ConnectorSyncSettingsDto,
+    "ConsentStatusDto": ConsentStatusDto,
+    "ContactDto": ContactDto,
+    "ContactProjection": ContactProjection,
+    "ContentMatchOptions": ContentMatchOptions,
+    "CountDto": CountDto,
+    "CreateAITransformerMappingOptions": CreateAITransformerMappingOptions,
+    "CreateAliasOptions": CreateAliasOptions,
+    "CreateCampaignProbeOptions": CreateCampaignProbeOptions,
+    "CreateCampaignProbeRunOptions": CreateCampaignProbeRunOptions,
+    "CreateConnectorImapConnectionOptions": CreateConnectorImapConnectionOptions,
+    "CreateConnectorOptions": CreateConnectorOptions,
+    "CreateConnectorSmtpConnectionOptions": CreateConnectorSmtpConnectionOptions,
+    "CreateConnectorSyncSettingsOptions": CreateConnectorSyncSettingsOptions,
+    "CreateConnectorWithOptions": CreateConnectorWithOptions,
+    "CreateContactOptions": CreateContactOptions,
+    "CreateDeliverabilitySimulationJobOptions": CreateDeliverabilitySimulationJobOptions,
+    "CreateDeliverabilityTestOptions": CreateDeliverabilityTestOptions,
+    "CreateDevicePreviewFeedbackOptions": CreateDevicePreviewFeedbackOptions,
+    "CreateDevicePreviewOptions": CreateDevicePreviewOptions,
+    "CreateDevicePreviewRunResult": CreateDevicePreviewRunResult,
+    "CreateDomainMonitorAlertSinkOptions": CreateDomainMonitorAlertSinkOptions,
+    "CreateDomainMonitorOptions": CreateDomainMonitorOptions,
+    "CreateDomainOptions": CreateDomainOptions,
+    "CreateEmailAuditOptions": CreateEmailAuditOptions,
+    "CreateEmergencyAddressOptions": CreateEmergencyAddressOptions,
+    "CreateGroupOptions": CreateGroupOptions,
+    "CreateInboxDto": CreateInboxDto,
+    "CreateInboxForwarderOptions": CreateInboxForwarderOptions,
+    "CreateInboxReplierOptions": CreateInboxReplierOptions,
+    "CreateInboxRetentionPolicyForAccountOptions": CreateInboxRetentionPolicyForAccountOptions,
+    "CreatePhoneNumberOptions": CreatePhoneNumberOptions,
+    "CreatePhonePoolOptions": CreatePhonePoolOptions,
+    "CreatePhoneProvisioningJobItemOptions": CreatePhoneProvisioningJobItemOptions,
+    "CreatePhoneProvisioningJobOptions": CreatePhoneProvisioningJobOptions,
+    "CreatePortalOptions": CreatePortalOptions,
+    "CreatePortalUserOptions": CreatePortalUserOptions,
+    "CreateRulesetOptions": CreateRulesetOptions,
+    "CreateTemplateOptions": CreateTemplateOptions,
+    "CreateTotpDeviceBase32SecretKeyOptions": CreateTotpDeviceBase32SecretKeyOptions,
+    "CreateTotpDeviceCustomOptions": CreateTotpDeviceCustomOptions,
+    "CreateTotpDeviceOtpAuthUrlOptions": CreateTotpDeviceOtpAuthUrlOptions,
+    "CreateTrackingPixelOptions": CreateTrackingPixelOptions,
+    "CreateWebhookOptions": CreateWebhookOptions,
+    "DNSLookupOptions": DNSLookupOptions,
+    "DNSLookupResult": DNSLookupResult,
+    "DNSLookupResults": DNSLookupResults,
+    "DNSLookupsOptions": DNSLookupsOptions,
+    "DeleteDevicePreviewRunResult": DeleteDevicePreviewRunResult,
+    "DeleteResult": DeleteResult,
+    "DeliverabilityAnalyticsRunDto": DeliverabilityAnalyticsRunDto,
+    "DeliverabilityAnalyticsSeriesDto": DeliverabilityAnalyticsSeriesDto,
+    "DeliverabilityAnalyticsSeriesPointDto": DeliverabilityAnalyticsSeriesPointDto,
+    "DeliverabilityAnalyticsSummaryDto": DeliverabilityAnalyticsSummaryDto,
+    "DeliverabilityEntityResultDto": DeliverabilityEntityResultDto,
+    "DeliverabilityEntityResultPageDto": DeliverabilityEntityResultPageDto,
+    "DeliverabilityExpectation": DeliverabilityExpectation,
+    "DeliverabilityExpectationResultDto": DeliverabilityExpectationResultDto,
+    "DeliverabilityFailureEntityHotspotDto": DeliverabilityFailureEntityHotspotDto,
+    "DeliverabilityFailureHotspotsDto": DeliverabilityFailureHotspotsDto,
+    "DeliverabilityFailurePhoneDimensionHotspotDto": DeliverabilityFailurePhoneDimensionHotspotDto,
+    "DeliverabilityPollStatusResultDto": DeliverabilityPollStatusResultDto,
+    "DeliverabilitySelectorOptions": DeliverabilitySelectorOptions,
+    "DeliverabilitySimulationEmailOptions": DeliverabilitySimulationEmailOptions,
+    "DeliverabilitySimulationJobConfigDto": DeliverabilitySimulationJobConfigDto,
+    "DeliverabilitySimulationJobDto": DeliverabilitySimulationJobDto,
+    "DeliverabilitySimulationJobErrorSummaryDto": DeliverabilitySimulationJobErrorSummaryDto,
+    "DeliverabilitySimulationJobEventDto": DeliverabilitySimulationJobEventDto,
+    "DeliverabilitySimulationJobEventPageDto": DeliverabilitySimulationJobEventPageDto,
+    "DeliverabilitySimulationJobTopErrorDto": DeliverabilitySimulationJobTopErrorDto,
+    "DeliverabilitySimulationSmsOptions": DeliverabilitySimulationSmsOptions,
+    "DeliverabilityTestDto": DeliverabilityTestDto,
+    "DeliverabilityTestPageDto": DeliverabilityTestPageDto,
+    "DeliveryStatusDto": DeliveryStatusDto,
+    "DescribeDomainOptions": DescribeDomainOptions,
+    "DescribeMailServerDomainResult": DescribeMailServerDomainResult,
+    "DevicePreviewFeedbackDto": DevicePreviewFeedbackDto,
+    "DevicePreviewFeedbackListDto": DevicePreviewFeedbackListDto,
+    "DevicePreviewProviderProgressDto": DevicePreviewProviderProgressDto,
+    "DevicePreviewRunDto": DevicePreviewRunDto,
+    "DevicePreviewRunResultsDto": DevicePreviewRunResultsDto,
+    "DevicePreviewScreenshotDto": DevicePreviewScreenshotDto,
+    "DevicePreviewTargetDto": DevicePreviewTargetDto,
+    "DmarcReportMetadata": DmarcReportMetadata,
+    "DmarcReportSourceSummary": DmarcReportSourceSummary,
+    "DnsPropagationResolverResult": DnsPropagationResolverResult,
+    "DomainDto": DomainDto,
+    "DomainGroup": DomainGroup,
+    "DomainGroupsDto": DomainGroupsDto,
+    "DomainInformation": DomainInformation,
+    "DomainIssuesDto": DomainIssuesDto,
+    "DomainMonitorAlertSinkDto": DomainMonitorAlertSinkDto,
+    "DomainMonitorDto": DomainMonitorDto,
+    "DomainMonitorInsightsDto": DomainMonitorInsightsDto,
+    "DomainMonitorRunComparisonDto": DomainMonitorRunComparisonDto,
+    "DomainMonitorRunDto": DomainMonitorRunDto,
+    "DomainMonitorRunDueResult": DomainMonitorRunDueResult,
+    "DomainMonitorRunNowResult": DomainMonitorRunNowResult,
+    "DomainMonitorSeriesDto": DomainMonitorSeriesDto,
+    "DomainMonitorSeriesPointDto": DomainMonitorSeriesPointDto,
+    "DomainMonitorSummaryDto": DomainMonitorSummaryDto,
+    "DomainNameRecord": DomainNameRecord,
+    "DomainPreview": DomainPreview,
+    "DomainRegionGroup": DomainRegionGroup,
+    "DomainRegionGroupsDto": DomainRegionGroupsDto,
+    "DomainRegionInformation": DomainRegionInformation,
+    "DownloadAttachmentDto": DownloadAttachmentDto,
+    "Email": Email,
+    "EmailAnalysis": EmailAnalysis,
+    "EmailAuditAnalysisResult": EmailAuditAnalysisResult,
+    "EmailAuditComparisonDto": EmailAuditComparisonDto,
+    "EmailAuditDto": EmailAuditDto,
+    "EmailAuditSpellingIssue": EmailAuditSpellingIssue,
+    "EmailAuditUrlIssue": EmailAuditUrlIssue,
+    "EmailAvailableResult": EmailAvailableResult,
+    "EmailBlacklistIpResult": EmailBlacklistIpResult,
+    "EmailBlacklistListingResult": EmailBlacklistListingResult,
+    "EmailContentMatchResult": EmailContentMatchResult,
+    "EmailContentPartResult": EmailContentPartResult,
+    "EmailFeatureCategoryName": EmailFeatureCategoryName,
+    "EmailFeatureFamilyName": EmailFeatureFamilyName,
+    "EmailFeatureFamilyStatistics": EmailFeatureFamilyStatistics,
+    "EmailFeatureNames": EmailFeatureNames,
+    "EmailFeatureOverview": EmailFeatureOverview,
+    "EmailFeaturePlatformName": EmailFeaturePlatformName,
+    "EmailFeaturePlatformStatistics": EmailFeaturePlatformStatistics,
+    "EmailFeatureSupportFlags": EmailFeatureSupportFlags,
+    "EmailFeatureSupportResult": EmailFeatureSupportResult,
+    "EmailFeatureSupportStatusPercentage": EmailFeatureSupportStatusPercentage,
+    "EmailFeatureVersionStatistics": EmailFeatureVersionStatistics,
+    "EmailHeaderAnalysisSummary": EmailHeaderAnalysisSummary,
+    "EmailHeaderReceivedHop": EmailHeaderReceivedHop,
+    "EmailHtmlDto": EmailHtmlDto,
+    "EmailLinksResult": EmailLinksResult,
+    "EmailPreview": EmailPreview,
+    "EmailPreviewUrls": EmailPreviewUrls,
+    "EmailProjection": EmailProjection,
+    "EmailRecipients": EmailRecipients,
+    "EmailRecipientsProjection": EmailRecipientsProjection,
+    "EmailScreenshotResult": EmailScreenshotResult,
+    "EmailSignature": EmailSignature,
+    "EmailSignatureParseResult": EmailSignatureParseResult,
+    "EmailTextLinesResult": EmailTextLinesResult,
+    "EmailThreadDto": EmailThreadDto,
+    "EmailThreadItem": EmailThreadItem,
+    "EmailThreadItemsDto": EmailThreadItemsDto,
+    "EmailThreadProjection": EmailThreadProjection,
+    "EmailValidationRequestDto": EmailValidationRequestDto,
+    "EmailVerificationResult": EmailVerificationResult,
+    "EmergencyAddress": EmergencyAddress,
+    "EmergencyAddressDto": EmergencyAddressDto,
+    "EmptyResponseDto": EmptyResponseDto,
+    "EntityAutomationItemProjection": EntityAutomationItemProjection,
+    "EntityEventItemProjection": EntityEventItemProjection,
+    "EntityFavouriteItemProjection": EntityFavouriteItemProjection,
+    "ExpirationDefaults": ExpirationDefaults,
+    "ExpiredInboxDto": ExpiredInboxDto,
+    "ExpiredInboxRecordProjection": ExpiredInboxRecordProjection,
+    "ExportLink": ExportLink,
+    "ExportOptions": ExportOptions,
+    "ExportTransformerOptions": ExportTransformerOptions,
+    "ExportTransformerResponse": ExportTransformerResponse,
+    "ExportTransformerResultJobDto": ExportTransformerResultJobDto,
+    "ExtractAttachmentTextOptions": ExtractAttachmentTextOptions,
+    "ExtractAttachmentTextResult": ExtractAttachmentTextResult,
+    "ExtractCodesOptions": ExtractCodesOptions,
+    "ExtractCodesResult": ExtractCodesResult,
+    "FakeEmailDto": FakeEmailDto,
+    "FakeEmailPreview": FakeEmailPreview,
+    "FakeEmailResult": FakeEmailResult,
+    "FilterBouncedRecipientsOptions": FilterBouncedRecipientsOptions,
+    "FilterBouncedRecipientsResult": FilterBouncedRecipientsResult,
+    "FlushExpiredInboxesResult": FlushExpiredInboxesResult,
+    "ForwardEmailOptions": ForwardEmailOptions,
+    "GenerateBimiRecordOptions": GenerateBimiRecordOptions,
+    "GenerateBimiRecordResults": GenerateBimiRecordResults,
+    "GenerateDmarcRecordOptions": GenerateDmarcRecordOptions,
+    "GenerateDmarcRecordResults": GenerateDmarcRecordResults,
+    "GenerateMtaStsRecordOptions": GenerateMtaStsRecordOptions,
+    "GenerateMtaStsRecordResults": GenerateMtaStsRecordResults,
+    "GenerateSpfRecordOptions": GenerateSpfRecordOptions,
+    "GenerateSpfRecordResults": GenerateSpfRecordResults,
+    "GenerateStructuredContentAttachmentOptions": GenerateStructuredContentAttachmentOptions,
+    "GenerateStructuredContentEmailOptions": GenerateStructuredContentEmailOptions,
+    "GenerateStructuredContentSmsOptions": GenerateStructuredContentSmsOptions,
+    "GenerateTlsReportingRecordOptions": GenerateTlsReportingRecordOptions,
+    "GenerateTlsReportingRecordResults": GenerateTlsReportingRecordResults,
+    "GetEmailScreenshotOptions": GetEmailScreenshotOptions,
+    "GetOrCreatePhonePoolOptions": GetOrCreatePhonePoolOptions,
+    "GravatarUrl": GravatarUrl,
+    "GroupContactsDto": GroupContactsDto,
+    "GroupDto": GroupDto,
+    "GroupProjection": GroupProjection,
+    "GuestPortalDto": GuestPortalDto,
+    "GuestPortalUserCreateDto": GuestPortalUserCreateDto,
+    "GuestPortalUserDto": GuestPortalUserDto,
+    "GuestPortalUserProjection": GuestPortalUserProjection,
+    "HTMLValidationResult": HTMLValidationResult,
+    "IPAddressResult": IPAddressResult,
+    "ImageIssue": ImageIssue,
+    "ImapAccessDetails": ImapAccessDetails,
+    "ImapEmailProjection": ImapEmailProjection,
+    "ImapFlagOperationOptions": ImapFlagOperationOptions,
+    "ImapMailboxStatus": ImapMailboxStatus,
+    "ImapServerFetchItem": ImapServerFetchItem,
+    "ImapServerFetchResult": ImapServerFetchResult,
+    "ImapServerGetResult": ImapServerGetResult,
+    "ImapServerListOptions": ImapServerListOptions,
+    "ImapServerListResult": ImapServerListResult,
+    "ImapServerMailboxResult": ImapServerMailboxResult,
+    "ImapServerSearchOptions": ImapServerSearchOptions,
+    "ImapServerSearchResult": ImapServerSearchResult,
+    "ImapServerStatusOptions": ImapServerStatusOptions,
+    "ImapServerStatusResult": ImapServerStatusResult,
+    "ImapSmtpAccessDetails": ImapSmtpAccessDetails,
+    "ImapSmtpAccessServers": ImapSmtpAccessServers,
+    "ImapUpdateFlagsOptions": ImapUpdateFlagsOptions,
+    "InboxByEmailAddressResult": InboxByEmailAddressResult,
+    "InboxByNameResult": InboxByNameResult,
+    "InboxDto": InboxDto,
+    "InboxExistsDto": InboxExistsDto,
+    "InboxForwarderDto": InboxForwarderDto,
+    "InboxForwarderEventDto": InboxForwarderEventDto,
+    "InboxForwarderEventProjection": InboxForwarderEventProjection,
+    "InboxForwarderTestOptions": InboxForwarderTestOptions,
+    "InboxForwarderTestResult": InboxForwarderTestResult,
+    "InboxIdItem": InboxIdItem,
+    "InboxIdsResult": InboxIdsResult,
+    "InboxPreview": InboxPreview,
+    "InboxReplierDto": InboxReplierDto,
+    "InboxReplierEventProjection": InboxReplierEventProjection,
+    "InboxRetentionPolicyDto": InboxRetentionPolicyDto,
+    "InboxRetentionPolicyOptionalDto": InboxRetentionPolicyOptionalDto,
+    "InboxRulesetTestResult": InboxRulesetTestResult,
+    "InlineObject1": InlineObject1,
+    "InvokeTransformerOptions": InvokeTransformerOptions,
+    "JSONSchemaDto": JSONSchemaDto,
+    "LinkIssue": LinkIssue,
+    "ListUnsubscribeRecipientProjection": ListUnsubscribeRecipientProjection,
+    "LookupBimiDomainOptions": LookupBimiDomainOptions,
+    "LookupBimiDomainResults": LookupBimiDomainResults,
+    "LookupDkimDomainOptions": LookupDkimDomainOptions,
+    "LookupDkimDomainResults": LookupDkimDomainResults,
+    "LookupDmarcDomainOptions": LookupDmarcDomainOptions,
+    "LookupDmarcDomainResults": LookupDmarcDomainResults,
+    "LookupMtaStsDomainOptions": LookupMtaStsDomainOptions,
+    "LookupMtaStsDomainResults": LookupMtaStsDomainResults,
+    "LookupMxRecordsOptions": LookupMxRecordsOptions,
+    "LookupMxRecordsResults": LookupMxRecordsResults,
+    "LookupPtrOptions": LookupPtrOptions,
+    "LookupPtrResults": LookupPtrResults,
+    "LookupSpfDomainOptions": LookupSpfDomainOptions,
+    "LookupSpfDomainResults": LookupSpfDomainResults,
+    "LookupTlsReportingDomainOptions": LookupTlsReportingDomainOptions,
+    "LookupTlsReportingDomainResults": LookupTlsReportingDomainResults,
+    "MatchOption": MatchOption,
+    "MatchOptions": MatchOptions,
+    "MissedEmailDto": MissedEmailDto,
+    "MissedEmailProjection": MissedEmailProjection,
+    "MissedSmsDto": MissedSmsDto,
+    "MissedSmsProjection": MissedSmsProjection,
+    "NameServerRecord": NameServerRecord,
+    "NewFakeEmailAddressResult": NewFakeEmailAddressResult,
+    "OptInConsentOptions": OptInConsentOptions,
+    "OptInConsentSendResult": OptInConsentSendResult,
+    "OptInIdentityProjection": OptInIdentityProjection,
+    "OptInSendingConsentDto": OptInSendingConsentDto,
+    "OptionalConnectorDto": OptionalConnectorDto,
+    "OptionalConnectorImapConnectionDto": OptionalConnectorImapConnectionDto,
+    "OptionalConnectorSmtpConnectionDto": OptionalConnectorSmtpConnectionDto,
+    "OptionalConnectorSyncSettingsDto": OptionalConnectorSyncSettingsDto,
+    "OrganizationInboxProjection": OrganizationInboxProjection,
+    "PageAITransformMappingProjection": PageAITransformMappingProjection,
+    "PageAITransformProjection": PageAITransformProjection,
+    "PageAITransformResultProjection": PageAITransformResultProjection,
+    "PageAlias": PageAlias,
+    "PageAliasThreadProjection": PageAliasThreadProjection,
+    "PageAttachmentEntity": PageAttachmentEntity,
+    "PageBouncedEmail": PageBouncedEmail,
+    "PageBouncedRecipients": PageBouncedRecipients,
+    "PageComplaint": PageComplaint,
+    "PageConnector": PageConnector,
+    "PageConnectorEvents": PageConnectorEvents,
+    "PageContactProjection": PageContactProjection,
+    "PageDeliveryStatus": PageDeliveryStatus,
+    "PageDevicePreviewRunProjection": PageDevicePreviewRunProjection,
+    "PageEmailPreview": PageEmailPreview,
+    "PageEmailProjection": PageEmailProjection,
+    "PageEmailThreadProjection": PageEmailThreadProjection,
+    "PageEmailValidationRequest": PageEmailValidationRequest,
+    "PageEntityAutomationItems": PageEntityAutomationItems,
+    "PageEntityEventItems": PageEntityEventItems,
+    "PageEntityFavouriteItems": PageEntityFavouriteItems,
+    "PageExpiredInboxRecordProjection": PageExpiredInboxRecordProjection,
+    "PageGroupProjection": PageGroupProjection,
+    "PageGuestPortalUsers": PageGuestPortalUsers,
+    "PageInboxForwarderDto": PageInboxForwarderDto,
+    "PageInboxForwarderEvents": PageInboxForwarderEvents,
+    "PageInboxProjection": PageInboxProjection,
+    "PageInboxReplierDto": PageInboxReplierDto,
+    "PageInboxReplierEvents": PageInboxReplierEvents,
+    "PageInboxTags": PageInboxTags,
+    "PageListUnsubscribeRecipients": PageListUnsubscribeRecipients,
+    "PageMissedEmailProjection": PageMissedEmailProjection,
+    "PageMissedSmsProjection": PageMissedSmsProjection,
+    "PageOptInIdentityProjection": PageOptInIdentityProjection,
+    "PageOrganizationInboxProjection": PageOrganizationInboxProjection,
+    "PagePhoneMessageThreadItemProjection": PagePhoneMessageThreadItemProjection,
+    "PagePhoneMessageThreadProjection": PagePhoneMessageThreadProjection,
+    "PagePhoneNumberProjection": PagePhoneNumberProjection,
+    "PagePhoneNumberReleaseProjection": PagePhoneNumberReleaseProjection,
+    "PagePlusAddressProjection": PagePlusAddressProjection,
+    "PageReputationItems": PageReputationItems,
+    "PageRulesetDto": PageRulesetDto,
+    "PageScheduledJobs": PageScheduledJobs,
+    "PageSentEmailProjection": PageSentEmailProjection,
+    "PageSentEmailWithQueueProjection": PageSentEmailWithQueueProjection,
+    "PageSentSmsProjection": PageSentSmsProjection,
+    "PageSmsProjection": PageSmsProjection,
+    "PageTableData": PageTableData,
+    "PageTemplateProjection": PageTemplateProjection,
+    "PageTrackingPixelProjection": PageTrackingPixelProjection,
+    "PageUnknownMissedEmailProjection": PageUnknownMissedEmailProjection,
+    "PageWebhookEndpointProjection": PageWebhookEndpointProjection,
+    "PageWebhookProjection": PageWebhookProjection,
+    "PageWebhookResult": PageWebhookResult,
+    "PageableObject": PageableObject,
+    "Pagination": Pagination,
+    "PhoneMessageThreadItemProjection": PhoneMessageThreadItemProjection,
+    "PhoneMessageThreadProjection": PhoneMessageThreadProjection,
+    "PhoneNumberDto": PhoneNumberDto,
+    "PhoneNumberLineTypeIntelligenceDto": PhoneNumberLineTypeIntelligenceDto,
+    "PhoneNumberLineTypeLookupDto": PhoneNumberLineTypeLookupDto,
+    "PhoneNumberProjection": PhoneNumberProjection,
+    "PhoneNumberReleaseProjection": PhoneNumberReleaseProjection,
+    "PhoneNumberValidationDto": PhoneNumberValidationDto,
+    "PhonePlanAvailability": PhonePlanAvailability,
+    "PhonePlanAvailabilityItem": PhonePlanAvailabilityItem,
+    "PhonePlanDto": PhonePlanDto,
+    "PhonePoolDetailDto": PhonePoolDetailDto,
+    "PhonePoolDto": PhonePoolDto,
+    "PhonePoolLeaseDto": PhonePoolLeaseDto,
+    "PhonePoolMemberDto": PhonePoolMemberDto,
+    "PhoneProviderCapabilitiesResult": PhoneProviderCapabilitiesResult,
+    "PhoneProvisioningJobDto": PhoneProvisioningJobDto,
+    "PhoneProvisioningJobItemDto": PhoneProvisioningJobItemDto,
+    "PhoneSmsPrepaidCreditDto": PhoneSmsPrepaidCreditDto,
+    "PhoneSmsPrepaidCreditsDto": PhoneSmsPrepaidCreditsDto,
+    "PhoneSummaryCountryDto": PhoneSummaryCountryDto,
+    "PhoneSummaryDto": PhoneSummaryDto,
+    "PlanSummaryDto": PlanSummaryDto,
+    "PlusAddressDto": PlusAddressDto,
+    "PlusAddressProjection": PlusAddressProjection,
+    "ProviderSettings": ProviderSettings,
+    "RawEmailJson": RawEmailJson,
+    "Recipient": Recipient,
+    "RecipientProjection": RecipientProjection,
+    "ReplyForSms": ReplyForSms,
+    "ReplyToAliasEmailOptions": ReplyToAliasEmailOptions,
+    "ReplyToEmailOptions": ReplyToEmailOptions,
+    "ReputationItemProjection": ReputationItemProjection,
+    "RulesetDto": RulesetDto,
+    "RulesetTestOptions": RulesetTestOptions,
+    "ScheduledJob": ScheduledJob,
+    "ScheduledJobDto": ScheduledJobDto,
+    "SearchAvailablePhoneNumbersOptions": SearchAvailablePhoneNumbersOptions,
+    "SearchEmailsOptions": SearchEmailsOptions,
+    "SearchInboxesOptions": SearchInboxesOptions,
+    "SendEmailBodyPart": SendEmailBodyPart,
+    "SendEmailOptions": SendEmailOptions,
+    "SendOptInConsentEmailOptions": SendOptInConsentEmailOptions,
+    "SendSMTPEnvelopeOptions": SendSMTPEnvelopeOptions,
+    "SendWithQueueResult": SendWithQueueResult,
+    "Sender": Sender,
+    "SenderProjection": SenderProjection,
+    "SentEmailDto": SentEmailDto,
+    "SentEmailProjection": SentEmailProjection,
+    "SentSmsDto": SentSmsDto,
+    "SentSmsProjection": SentSmsProjection,
+    "ServerEndpoints": ServerEndpoints,
+    "SetInboxFavouritedOptions": SetInboxFavouritedOptions,
+    "SetPhoneFavouritedOptions": SetPhoneFavouritedOptions,
+    "SimpleSendEmailOptions": SimpleSendEmailOptions,
+    "SmsDto": SmsDto,
+    "SmsMatchOption": SmsMatchOption,
+    "SmsPreview": SmsPreview,
+    "SmsProjection": SmsProjection,
+    "SmsReplyOptions": SmsReplyOptions,
+    "SmsSendOptions": SmsSendOptions,
+    "SmtpAccessDetails": SmtpAccessDetails,
+    "SmtpAuthDiagnosticResult": SmtpAuthDiagnosticResult,
+    "SmtpDiagnosticStep": SmtpDiagnosticStep,
+    "SmtpTlsDiagnosticResult": SmtpTlsDiagnosticResult,
+    "SortObject": SortObject,
+    "SpellingIssue": SpellingIssue,
+    "SpfMechanismResult": SpfMechanismResult,
+    "StructuredContentResultDto": StructuredContentResultDto,
+    "StructuredOutputSchema": StructuredOutputSchema,
+    "StructuredOutputSchemaValidation": StructuredOutputSchemaValidation,
+    "TemplateDto": TemplateDto,
+    "TemplatePreview": TemplatePreview,
+    "TemplateProjection": TemplateProjection,
+    "TemplateVariable": TemplateVariable,
+    "TenantReputationFindingDto": TenantReputationFindingDto,
+    "TenantReputationFindingsDto": TenantReputationFindingsDto,
+    "TenantReputationStatusRowDto": TenantReputationStatusRowDto,
+    "TenantReputationStatusSummaryDto": TenantReputationStatusSummaryDto,
+    "TestInboxRulesetSendingOptions": TestInboxRulesetSendingOptions,
+    "TestNewInboxForwarderOptions": TestNewInboxForwarderOptions,
+    "TestNewInboxRulesetOptions": TestNewInboxRulesetOptions,
+    "TestPhoneNumberOptions": TestPhoneNumberOptions,
+    "TestRulesetReceivingOptions": TestRulesetReceivingOptions,
+    "TestRulesetReceivingResult": TestRulesetReceivingResult,
+    "TestRulesetSendingResult": TestRulesetSendingResult,
+    "TestSmtpServerOptions": TestSmtpServerOptions,
+    "TestSmtpServerResults": TestSmtpServerResults,
+    "TotpDeviceCodeDto": TotpDeviceCodeDto,
+    "TotpDeviceDto": TotpDeviceDto,
+    "TotpDeviceOptionalDto": TotpDeviceOptionalDto,
+    "TrackingPixelDto": TrackingPixelDto,
+    "TrackingPixelProjection": TrackingPixelProjection,
+    "UnknownMissedEmailProjection": UnknownMissedEmailProjection,
+    "UnreadCount": UnreadCount,
+    "UnseenErrorCountDto": UnseenErrorCountDto,
+    "UpdateAliasOptions": UpdateAliasOptions,
+    "UpdateCampaignProbeOptions": UpdateCampaignProbeOptions,
+    "UpdateDeliverabilityTestOptions": UpdateDeliverabilityTestOptions,
+    "UpdateDevicePreviewFeedbackOptions": UpdateDevicePreviewFeedbackOptions,
+    "UpdateDomainMonitorOptions": UpdateDomainMonitorOptions,
+    "UpdateDomainOptions": UpdateDomainOptions,
+    "UpdateGroupContacts": UpdateGroupContacts,
+    "UpdateImapAccessOptions": UpdateImapAccessOptions,
+    "UpdateInboxOptions": UpdateInboxOptions,
+    "UpdateInboxReplierOptions": UpdateInboxReplierOptions,
+    "UpdatePhoneNumberOptions": UpdatePhoneNumberOptions,
+    "UpdatePhonePoolOptions": UpdatePhonePoolOptions,
+    "UpdateSmtpAccessOptions": UpdateSmtpAccessOptions,
+    "UploadAttachmentOptions": UploadAttachmentOptions,
+    "UserInfoDto": UserInfoDto,
+    "ValidateEmailAddressListOptions": ValidateEmailAddressListOptions,
+    "ValidateEmailAddressListResult": ValidateEmailAddressListResult,
+    "ValidatePhoneNumberOptions": ValidatePhoneNumberOptions,
+    "ValidationDto": ValidationDto,
+    "ValidationMessage": ValidationMessage,
+    "VerifyEmailAddressOptions": VerifyEmailAddressOptions,
+    "VerifyWebhookSignatureOptions": VerifyWebhookSignatureOptions,
+    "VerifyWebhookSignatureResults": VerifyWebhookSignatureResults,
+    "WaitForConditions": WaitForConditions,
+    "WaitForSingleSmsOptions": WaitForSingleSmsOptions,
+    "WaitForSmsConditions": WaitForSmsConditions,
+    "WebhookBouncePayload": WebhookBouncePayload,
+    "WebhookBounceRecipientPayload": WebhookBounceRecipientPayload,
+    "WebhookDeliveryStatusPayload": WebhookDeliveryStatusPayload,
+    "WebhookDto": WebhookDto,
+    "WebhookEmailOpenedPayload": WebhookEmailOpenedPayload,
+    "WebhookEmailReadPayload": WebhookEmailReadPayload,
+    "WebhookEndpointProjection": WebhookEndpointProjection,
+    "WebhookHeaderNameValue": WebhookHeaderNameValue,
+    "WebhookHeaders": WebhookHeaders,
+    "WebhookNewAITransformResultPayload": WebhookNewAITransformResultPayload,
+    "WebhookNewAttachmentPayload": WebhookNewAttachmentPayload,
+    "WebhookNewContactPayload": WebhookNewContactPayload,
+    "WebhookNewEmailPayload": WebhookNewEmailPayload,
+    "WebhookNewSmsPayload": WebhookNewSmsPayload,
+    "WebhookProjection": WebhookProjection,
+    "WebhookRedriveAllResult": WebhookRedriveAllResult,
+    "WebhookRedriveResult": WebhookRedriveResult,
+    "WebhookResultDto": WebhookResultDto,
+    "WebhookTestRequest": WebhookTestRequest,
+    "WebhookTestResponse": WebhookTestResponse,
+    "WebhookTestResult": WebhookTestResult,
+}
+
+export class ObjectSerializer {
+    public static findCorrectType(data: any, expectedType: string) {
+        if (data == undefined) {
+            return expectedType;
+        } else if (primitives.indexOf(expectedType.toLowerCase()) !== -1) {
+            return expectedType;
+        } else if (expectedType === "Date") {
+            return expectedType;
+        } else {
+            if (enumsMap.has(expectedType)) {
+                return expectedType;
+            }
+
+            if (!typeMap[expectedType]) {
+                return expectedType; // w/e we don't know the type
+            }
+
+            // Check the discriminator
+            let discriminatorProperty = typeMap[expectedType].discriminator;
+            if (discriminatorProperty == null) {
+                return expectedType; // the type does not have a discriminator. use it.
+            } else {
+                if (data[discriminatorProperty]) {
+                    var discriminatorType = data[discriminatorProperty];
+                    if(typeMap[discriminatorType]){
+                        return discriminatorType; // use the type given in the discriminator
+                    } else {
+                        return expectedType; // discriminator did not map to a type
+                    }
+                } else {
+                    return expectedType; // discriminator was not present (or an empty string)
+                }
+            }
+        }
+    }
+
+    public static serialize(data: any, type: string, format: string) {
+        if (data == undefined) {
+            return data;
+        } else if (primitives.indexOf(type.toLowerCase()) !== -1) {
+            return data;
+        } else if (type.lastIndexOf("Array<", 0) === 0) { // string.startsWith pre es6
+            let subType: string = type.replace("Array<", ""); // Array<Type> => Type>
+            subType = subType.substring(0, subType.length - 1); // Type> => Type
+            let transformedData: any[] = [];
+            for (let index in data) {
+                let date = data[index];
+                transformedData.push(ObjectSerializer.serialize(date, subType, format));
+            }
+            return transformedData;
+        } else if (type === "Date") {
+            if (format == "date") {
+                let month = data.getMonth()+1
+                month = month < 10 ? "0" + month.toString() : month.toString()
+                let day = data.getDate();
+                day = day < 10 ? "0" + day.toString() : day.toString();
+
+                return data.getFullYear() + "-" + month + "-" + day;
+            } else {
+                return data.toISOString();
+            }
+        } else {
+            if (enumsMap.has(type)) {
+                return data;
+            }
+            if (!typeMap[type]) { // in case we dont know the type
+                return data;
+            }
+            
+            // Get the actual type of this object
+            type = this.findCorrectType(data, type);
+
+            // get the map for the correct type.
+            let attributeTypes = typeMap[type].getAttributeTypeMap();
+            let instance: {[index: string]: any} = {};
+            for (let index in attributeTypes) {
+                let attributeType = attributeTypes[index];
+                instance[attributeType.baseName] = ObjectSerializer.serialize(data[attributeType.name], attributeType.type, attributeType.format);
+            }
+            return instance;
+        }
+    }
+
+    public static deserialize(data: any, type: string, format: string) {
+        // polymorphism may change the actual type.
+        type = ObjectSerializer.findCorrectType(data, type);
+        if (data == undefined) {
+            return data;
+        } else if (primitives.indexOf(type.toLowerCase()) !== -1) {
+            return data;
+        } else if (type.lastIndexOf("Array<", 0) === 0) { // string.startsWith pre es6
+            let subType: string = type.replace("Array<", ""); // Array<Type> => Type>
+            subType = subType.substring(0, subType.length - 1); // Type> => Type
+            let transformedData: any[] = [];
+            for (let index in data) {
+                let date = data[index];
+                transformedData.push(ObjectSerializer.deserialize(date, subType, format));
+            }
+            return transformedData;
+        } else if (type === "Date") {
+            return new Date(data);
+        } else {
+            if (enumsMap.has(type)) {// is Enum
+                return data;
+            }
+
+            if (!typeMap[type]) { // dont know the type
+                return data;
+            }
+            let instance = new typeMap[type]();
+            let attributeTypes = typeMap[type].getAttributeTypeMap();
+            for (let index in attributeTypes) {
+                let attributeType = attributeTypes[index];
+                instance[attributeType.name] = ObjectSerializer.deserialize(data[attributeType.baseName], attributeType.type, attributeType.format);
+            }
+            return instance;
+        }
+    }
+
+
+    /**
+     * Normalize media type
+     *
+     * We currently do not handle any media types attributes, i.e. anything
+     * after a semicolon. All content is assumed to be UTF-8 compatible.
+     */
+    public static normalizeMediaType(mediaType: string | undefined): string | undefined {
+        if (mediaType === undefined) {
+            return undefined;
+        }
+        return mediaType.split(";")[0].trim().toLowerCase();
+    }
+
+    /**
+     * From a list of possible media types, choose the one we can handle best.
+     *
+     * The order of the given media types does not have any impact on the choice
+     * made.
+     */
+    public static getPreferredMediaType(mediaTypes: Array<string>): string {
+        /** According to OAS 3 we should default to json */
+        if (!mediaTypes) {
+            return "application/json";
+        }
+
+        const normalMediaTypes = mediaTypes.map(this.normalizeMediaType);
+        let selectedMediaType: string | undefined = undefined;
+        let selectedRank: number = -Infinity;
+        for (const mediaType of normalMediaTypes) {
+            if (supportedMediaTypes[mediaType!] > selectedRank) {
+                selectedMediaType = mediaType;
+                selectedRank = supportedMediaTypes[mediaType!];
+            }
+        }
+
+        if (selectedMediaType === undefined) {
+            throw new Error("None of the given media types are supported: " + mediaTypes.join(", "));
+        }
+
+        return selectedMediaType!;
+    }
+
+    /**
+     * Convert data to a string according the given media type
+     */
+    public static stringify(data: any, mediaType: string): string {
+        if (mediaType === "application/json") {
+            return JSON.stringify(data);
+        }
+
+        throw new Error("The mediaType " + mediaType + " is not supported by ObjectSerializer.stringify.");
+    }
+
+    /**
+     * Parse data from a string according to the given media type
+     */
+    public static parse(rawData: string, mediaType: string | undefined) {
+        if (mediaType === undefined) {
+            throw new Error("Cannot parse content. No Content-Type defined.");
+        }
+
+        if (mediaType === "application/json") {
+            return JSON.parse(rawData);
+        }
+
+        throw new Error("The mediaType " + mediaType + " is not supported by ObjectSerializer.parse.");
+    }
+}
